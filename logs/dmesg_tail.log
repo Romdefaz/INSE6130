@@ -1,0 +1,200 @@
+[Fri Nov  7 22:54:39 2025] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Listening on Journal Audit Socket.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Listening on Journal Socket (/dev/log).
+[Fri Nov  7 22:54:39 2025] systemd[1]: Listening on Journal Socket.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Listening on udev Control Socket.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Listening on udev Kernel Socket.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Huge Pages File System...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting POSIX Message Queue File System...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Kernel Debug File System...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Kernel Trace File System...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Journal Service...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Set the console keyboard layout...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Create List of Static Device Nodes...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Load Kernel Module configfs...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Load Kernel Module drm...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Load Kernel Module efi_pstore...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Load Kernel Module fuse...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Load Kernel Modules...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Remount Root and Kernel File Systems...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Coldplug All udev Devices...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounted Huge Pages File System.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounted POSIX Message Queue File System.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounted Kernel Debug File System.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounted Kernel Trace File System.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Finished Create List of Static Device Nodes.
+[Fri Nov  7 22:54:39 2025] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Finished Load Kernel Module configfs.
+[Fri Nov  7 22:54:39 2025] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Finished Load Kernel Module drm.
+[Fri Nov  7 22:54:39 2025] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Finished Load Kernel Module fuse.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting FUSE Control File System...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Kernel Configuration File System...
+[Fri Nov  7 22:54:39 2025] systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Finished Load Kernel Module efi_pstore.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounted FUSE Control File System.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounted Kernel Configuration File System.
+[Fri Nov  7 22:54:39 2025] lp: driver loaded but no devices found
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting VMware vmblock fuse mount...
+[Fri Nov  7 22:54:39 2025] EXT4-fs (sda3): re-mounted 9a956e20-d574-4d8c-8189-a2fd23ea1531 r/w. Quota mode: none.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Finished Remount Root and Kernel File Systems.
+[Fri Nov  7 22:54:39 2025] ppdev: user-space parallel port driver
+[Fri Nov  7 22:54:39 2025] systemd[1]: Activating swap /swapfile...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Load/Save Random Seed...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Create System Users...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounted VMware vmblock fuse mount.
+[Fri Nov  7 22:54:39 2025] Adding 2191356k swap on /swapfile.  Priority:-2 extents:6 across:2355196k 
+[Fri Nov  7 22:54:39 2025] systemd[1]: Activated swap /swapfile.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Reached target Swaps.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Finished Load/Save Random Seed.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Condition check resulted in First Boot Complete being skipped.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Finished Create System Users.
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: vgaarb: deactivate vga console
+[Fri Nov  7 22:54:39 2025] Console: switching to colour dummy device 80x25
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Create Static Device Nodes in /dev...
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] FIFO at 0x00000000fe000000 size is 8192 kiB
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] VRAM at 0x00000000e8000000 size is 131072 kiB
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] Running on SVGA version 2.
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, 8bit emulation, alpha cursor, 3D, extended fifo, multimon, pitchlock, irq mask, display topology, gmr, traces, gmr2, screen object 2, command buffers, command buffers 2, gbobject, dx, hp cmd queue, no bb restriction, cap2 register, 
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] Capabilities2: grow otable, intra surface copy, dx2, gb memsize 2, screendma reg, otable ptdepth2, non ms to ms stretchblt, cursor mob, mshint, cb max size 4mb, dx3, frame type, trace full fb, extra regs, lo staging, 
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] DMA map mode: Caching DMA mappings.
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] Legacy memory limits: VRAM = 4096 kB, FIFO = 256 kB, surface = 0 kB
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] MOB limits: max mob size = 1048576 kB, max mob pages = 2097152
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] Max GMR ids is 64
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] Max number of GMR pages is 65536
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] Maximum display memory size is 262144 kiB
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] Screen Target display unit initialized
+[Fri Nov  7 22:54:39 2025] systemd[1]: Finished Set the console keyboard layout.
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] Fifo max 0x00040000 min 0x00001000 cap 0x0000077f
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] Using command buffers with DMA pool.
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] Available shader model: SM_5_1X.
+[Fri Nov  7 22:54:39 2025] [drm] Initialized vmwgfx 2.20.0 20211206 for 0000:00:0f.0 on minor 0
+[Fri Nov  7 22:54:39 2025] fbcon: vmwgfxdrmfb (fb0) is primary device
+[Fri Nov  7 22:54:39 2025] Console: switching to colour frame buffer device 160x50
+[Fri Nov  7 22:54:39 2025] vmwgfx 0000:00:0f.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+[Fri Nov  7 22:54:39 2025] systemd[1]: Finished Create Static Device Nodes in /dev.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Reached target Preparation for Local File Systems.
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Mount unit for bare, revision 5...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Mount unit for core22, revision 1122...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Mount unit for firefox, revision 3836...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Mount unit for gnome-42-2204, revision 141...
+[Fri Nov  7 22:54:39 2025] loop0: detected capacity change from 0 to 151992
+[Fri Nov  7 22:54:39 2025] loop1: detected capacity change from 0 to 8
+[Fri Nov  7 22:54:39 2025] loop2: detected capacity change from 0 to 1017816
+[Fri Nov  7 22:54:39 2025] loop3: detected capacity change from 0 to 187776
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Mount unit for gtk-common-themes, revision 1535...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Mount unit for snap-store, revision 959...
+[Fri Nov  7 22:54:39 2025] loop4: detected capacity change from 0 to 546064
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Mount unit for snapd, revision 20671...
+[Fri Nov  7 22:54:39 2025] loop5: detected capacity change from 0 to 25240
+[Fri Nov  7 22:54:39 2025] loop6: detected capacity change from 0 to 82800
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Mount unit for snapd-desktop-integration, revision 315...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Mount unit for snapd-desktop-integration, revision 83...
+[Fri Nov  7 22:54:39 2025] loop7: detected capacity change from 0 to 1152
+[Fri Nov  7 22:54:39 2025] systemd[1]: Mounting Mount unit for firefox, revision 3836 via mount-control...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+[Fri Nov  7 22:54:39 2025] systemd[1]: Started Journal Service.
+[Fri Nov  7 22:54:39 2025] loop8: detected capacity change from 0 to 904
+[Fri Nov  7 22:54:39 2025] systemd-journald[336]: Received client request to flush runtime journal.
+[Fri Nov  7 22:54:39 2025] systemd-journald[336]: File /var/log/journal/69944d5d88af4ca6a6abca0994a09b20/system.journal corrupted or uncleanly shut down, renaming and replacing.
+[Fri Nov  7 22:54:40 2025] vmw_vmci 0000:00:07.7: MMIO register access is available
+[Fri Nov  7 22:54:40 2025] vmw_vmci 0000:00:07.7: Using capabilities 0x3c
+[Fri Nov  7 22:54:40 2025] Guest personality initialized and is active
+[Fri Nov  7 22:54:40 2025] VMCI host device registered (name=vmci, major=10, minor=122)
+[Fri Nov  7 22:54:40 2025] Initialized host personality
+[Fri Nov  7 22:54:40 2025] audit: type=1400 audit(1762574081.428:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=618 comm="apparmor_parser"
+[Fri Nov  7 22:54:40 2025] audit: type=1400 audit(1762574081.430:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=619 comm="apparmor_parser"
+[Fri Nov  7 22:54:40 2025] audit: type=1400 audit(1762574081.430:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=619 comm="apparmor_parser"
+[Fri Nov  7 22:54:40 2025] audit: type=1400 audit(1762574081.482:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=625 comm="apparmor_parser"
+[Fri Nov  7 22:54:40 2025] audit: type=1400 audit(1762574081.482:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=625 comm="apparmor_parser"
+[Fri Nov  7 22:54:40 2025] audit: type=1400 audit(1762574081.482:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=625 comm="apparmor_parser"
+[Fri Nov  7 22:54:40 2025] audit: type=1400 audit(1762574081.482:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/{,usr/}sbin/dhclient" pid=625 comm="apparmor_parser"
+[Fri Nov  7 22:54:40 2025] audit: type=1400 audit(1762574081.506:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=632 comm="apparmor_parser"
+[Fri Nov  7 22:54:40 2025] audit: type=1400 audit(1762574081.506:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=632 comm="apparmor_parser"
+[Fri Nov  7 22:54:40 2025] audit: type=1400 audit(1762574081.506:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=632 comm="apparmor_parser"
+[Fri Nov  7 22:54:40 2025] NET: Registered PF_VSOCK protocol family
+[Fri Nov  7 22:54:41 2025] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 10737418240 ms ovfl timer
+[Fri Nov  7 22:54:41 2025] RAPL PMU: hw unit of domain psys 2^-0 Joules
+[Fri Nov  7 22:54:41 2025] cryptd: max_cpu_qlen set to 1000
+[Fri Nov  7 22:54:41 2025] AVX2 version of gcm_enc/dec engaged.
+[Fri Nov  7 22:54:41 2025] AES CTR mode by8 optimization enabled
+[Fri Nov  7 22:54:42 2025] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+[Fri Nov  7 22:54:43 2025] systemd-journald[336]: File /var/log/journal/69944d5d88af4ca6a6abca0994a09b20/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+[Fri Nov  7 22:54:44 2025] loop9: detected capacity change from 0 to 8
+[Fri Nov  7 22:54:45 2025] evm: overlay not supported
+[Fri Nov  7 22:54:45 2025] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+[Fri Nov  7 22:54:45 2025] Bridge firewalling registered
+[Fri Nov  7 22:54:45 2025] Initializing XFRM netlink socket
+[Fri Nov  7 22:54:48 2025] ISO 9660 Extensions: Microsoft Joliet Level 3
+[Fri Nov  7 22:54:48 2025] ISO 9660 Extensions: RRIP_1991A
+[Fri Nov  7 22:54:49 2025] rfkill: input handler disabled
+[Fri Nov  7 22:54:52 2025] input: VMware DnD UInput pointer as /devices/virtual/input/input6
+[Fri Nov  7 22:55:27 2025] kauditd_printk_skb: 39 callbacks suppressed
+[Fri Nov  7 22:55:27 2025] audit: type=1400 audit(1762574128.730:51): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/usr/local/share/" pid=2069 comm="snap-update-ns" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+[Fri Nov  7 22:55:27 2025] audit: type=1400 audit(1762574128.733:52): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=2069 comm="snap-update-ns" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+[Fri Nov  7 22:55:27 2025] audit: type=1400 audit(1762574128.736:53): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=2069 comm="snap-update-ns" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+[Fri Nov  7 22:55:30 2025] audit: type=1107 audit(1762574131.533:54): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.13" pid=2047 label="snap.firefox.firefox" peer_pid=829 peer_label="unconfined"
+                            exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+[Fri Nov  7 22:55:30 2025] audit: type=1107 audit(1762574131.780:55): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.78" pid=2047 label="snap.firefox.firefox" peer_pid=2189 peer_label="unconfined"
+                            exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+[Fri Nov  7 22:55:30 2025] audit: type=1107 audit(1762574131.821:56): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.78" pid=2047 label="snap.firefox.firefox" peer_pid=2189 peer_label="unconfined"
+                            exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+[Fri Nov  7 22:59:47 2025] audit: type=1107 audit(1762574388.280:57): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.94" pid=2047 label="snap.firefox.firefox" peer_pid=2813 peer_label="unconfined"
+                            exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+[Fri Nov  7 23:24:23 2025] audit: type=1107 audit(1762575864.741:58): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.DBus.Properties" member="PropertiesChanged" name=":1.13" mask="receive" pid=2047 label="snap.firefox.firefox" peer_pid=829 peer_label="unconfined"
+                            exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+[Fri Nov  7 23:24:32 2025] audit: type=1107 audit(1762575873.751:59): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.DBus.Properties" member="PropertiesChanged" name=":1.13" mask="receive" pid=2047 label="snap.firefox.firefox" peer_pid=829 peer_label="unconfined"
+                            exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+[Fri Nov  7 23:26:37 2025] docker0: port 1(veth23d4980) entered blocking state
+[Fri Nov  7 23:26:37 2025] docker0: port 1(veth23d4980) entered disabled state
+[Fri Nov  7 23:26:37 2025] veth23d4980: entered allmulticast mode
+[Fri Nov  7 23:26:37 2025] veth23d4980: entered promiscuous mode
+[Fri Nov  7 23:26:38 2025] eth0: renamed from veth99ccaf6
+[Fri Nov  7 23:26:38 2025] docker0: port 1(veth23d4980) entered blocking state
+[Fri Nov  7 23:26:38 2025] docker0: port 1(veth23d4980) entered forwarding state
+[Fri Nov  7 23:27:31 2025] docker0: port 1(veth23d4980) entered disabled state
+[Fri Nov  7 23:27:31 2025] veth99ccaf6: renamed from eth0
+[Fri Nov  7 23:27:31 2025] docker0: port 1(veth23d4980) entered disabled state
+[Fri Nov  7 23:27:31 2025] veth23d4980 (unregistering): left allmulticast mode
+[Fri Nov  7 23:27:31 2025] veth23d4980 (unregistering): left promiscuous mode
+[Fri Nov  7 23:27:31 2025] docker0: port 1(veth23d4980) entered disabled state
+[Fri Nov  7 23:27:52 2025] docker0: port 1(veth121d32e) entered blocking state
+[Fri Nov  7 23:27:52 2025] docker0: port 1(veth121d32e) entered disabled state
+[Fri Nov  7 23:27:52 2025] veth121d32e: entered allmulticast mode
+[Fri Nov  7 23:27:52 2025] veth121d32e: entered promiscuous mode
+[Fri Nov  7 23:27:52 2025] eth0: renamed from vetha106755
+[Fri Nov  7 23:27:52 2025] docker0: port 1(veth121d32e) entered blocking state
+[Fri Nov  7 23:27:52 2025] docker0: port 1(veth121d32e) entered forwarding state
+[Fri Nov  7 23:43:00 2025] docker0: port 1(veth121d32e) entered disabled state
+[Fri Nov  7 23:43:00 2025] vetha106755: renamed from eth0
+[Fri Nov  7 23:43:00 2025] docker0: port 1(veth121d32e) entered disabled state
+[Fri Nov  7 23:43:00 2025] veth121d32e (unregistering): left allmulticast mode
+[Fri Nov  7 23:43:00 2025] veth121d32e (unregistering): left promiscuous mode
+[Fri Nov  7 23:43:00 2025] docker0: port 1(veth121d32e) entered disabled state
+[Fri Nov  7 23:43:04 2025] docker0: port 1(vethc9f8a32) entered blocking state
+[Fri Nov  7 23:43:04 2025] docker0: port 1(vethc9f8a32) entered disabled state
+[Fri Nov  7 23:43:04 2025] vethc9f8a32: entered allmulticast mode
+[Fri Nov  7 23:43:04 2025] vethc9f8a32: entered promiscuous mode
+[Fri Nov  7 23:43:05 2025] eth0: renamed from vethcbb3e8c
+[Fri Nov  7 23:43:05 2025] docker0: port 1(vethc9f8a32) entered blocking state
+[Fri Nov  7 23:43:05 2025] docker0: port 1(vethc9f8a32) entered forwarding state
+[Fri Nov  7 23:51:26 2025] docker0: port 1(vethc9f8a32) entered disabled state
+[Fri Nov  7 23:51:26 2025] vethcbb3e8c: renamed from eth0
+[Fri Nov  7 23:51:26 2025] docker0: port 1(vethc9f8a32) entered disabled state
+[Fri Nov  7 23:51:26 2025] vethc9f8a32 (unregistering): left allmulticast mode
+[Fri Nov  7 23:51:26 2025] vethc9f8a32 (unregistering): left promiscuous mode
+[Fri Nov  7 23:51:26 2025] docker0: port 1(vethc9f8a32) entered disabled state
+[Fri Nov  7 23:51:32 2025] docker0: port 1(veth03ef304) entered blocking state
+[Fri Nov  7 23:51:32 2025] docker0: port 1(veth03ef304) entered disabled state
+[Fri Nov  7 23:51:32 2025] veth03ef304: entered allmulticast mode
+[Fri Nov  7 23:51:32 2025] veth03ef304: entered promiscuous mode
+[Fri Nov  7 23:51:32 2025] eth0: renamed from vethb27f8d0
+[Fri Nov  7 23:51:32 2025] docker0: port 1(veth03ef304) entered blocking state
+[Fri Nov  7 23:51:32 2025] docker0: port 1(veth03ef304) entered forwarding state
+[Fri Nov  7 23:58:34 2025] audit: type=1107 audit(1762577915.367:60): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.DBus.Properties" member="PropertiesChanged" name=":1.13" mask="receive" pid=2047 label="snap.firefox.firefox" peer_pid=829 peer_label="unconfined"
+                            exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+[Fri Nov  7 23:58:41 2025] audit: type=1107 audit(1762577922.310:61): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.DBus.Properties" member="PropertiesChanged" name=":1.13" mask="receive" pid=2047 label="snap.firefox.firefox" peer_pid=829 peer_label="unconfined"
+                            exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'

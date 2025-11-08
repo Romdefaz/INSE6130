@@ -1,0 +1,4 @@
+C /proc
+A /proc/self
+A /proc/self/fd
+A /proc/self/fd/8

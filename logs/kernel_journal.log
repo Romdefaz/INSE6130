@@ -1,0 +1,508 @@
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:17.7: PME: Signaling with IRQ 47
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:17.7: pciehp: Slot #231 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.0: PME: Signaling with IRQ 48
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.0: pciehp: Slot #256 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.1: PME: Signaling with IRQ 49
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.1: pciehp: Slot #257 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.2: PME: Signaling with IRQ 50
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.2: pciehp: Slot #258 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.3: PME: Signaling with IRQ 51
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.3: pciehp: Slot #259 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.4: PME: Signaling with IRQ 52
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.4: pciehp: Slot #260 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.5: PME: Signaling with IRQ 53
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.5: pciehp: Slot #261 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.6: PME: Signaling with IRQ 54
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.6: pciehp: Slot #262 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.7: PME: Signaling with IRQ 55
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: pcieport 0000:00:18.7: pciehp: Slot #263 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ACPI: AC: AC Adapter [ACAD] (on-line)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ACPI: button: Power Button [PWRF]
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Linux agpgart interface v0.103
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: agpgart-intel 0000:00:00.0: Intel 440BX Chipset
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: agpgart-intel 0000:00:00.0: AGP aperture is 256M @ 0x0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: loop: module loaded
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata_piix 0000:00:07.1: version 2.13
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host0: ata_piix
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host1: ata_piix
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0x1060 irq 14 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0x1068 irq 15 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ACPI: bus type drm_connector registered
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: tun: Universal TUN/TAP device driver, 1.6
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: PPP generic driver version 2.4.2
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: uhci_hcd 0000:02:00.0: UHCI Host Controller
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: uhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 1
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: uhci_hcd 0000:02:00.0: detected 2 ports
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: uhci_hcd 0000:02:00.0: irq 18, io port 0x00002080
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.08
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb usb1: Product: UHCI Host Controller
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb usb1: Manufacturer: Linux 6.8.0-87-generic uhci_hcd
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb usb1: SerialNumber: 0000:02:00.0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: hub 1-0:1.0: USB hub found
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: hub 1-0:1.0: 2 ports detected
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f13:MOUS] at 0x60,0x64 irq 1,12
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ehci-pci 0000:02:03.0: EHCI Host Controller
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ehci-pci 0000:02:03.0: new USB bus registered, assigned bus number 2
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ehci-pci 0000:02:03.0: irq 17, io mem 0xfd5ef000
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: mousedev: PS/2 mouse device common for all mice
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: rtc_cmos 00:01: registered as rtc0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: rtc_cmos 00:01: setting system clock to 2025-11-08T03:54:36 UTC (1762574076)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: rtc_cmos 00:01: alarms up to one month, y3k, 114 bytes nvram
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: i2c_dev: i2c /dev entries driver
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: device-mapper: uevent: version 1.0.3
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: intel_pstate: CPU model not supported
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: drop_monitor: Initializing network drop monitor service
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: NET: Registered PF_INET6 protocol family
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ehci-pci 0000:02:03.0: USB 2.0 started, EHCI 1.00
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.08
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb usb2: Product: EHCI Host Controller
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb usb2: Manufacturer: Linux 6.8.0-87-generic ehci_hcd
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb usb2: SerialNumber: 0000:02:03.0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: hub 2-0:1.0: USB hub found
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: hub 2-0:1.0: 6 ports detected
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb 1-1: New USB device found, idVendor=0e0f, idProduct=0003, bcdDevice= 1.03
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb 1-1: Product: VMware Virtual USB Mouse
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb 1-1: Manufacturer: VMware
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb 1-2: new full-speed USB device number 3 using uhci_hcd
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb 1-2: New USB device found, idVendor=0e0f, idProduct=0002, bcdDevice= 1.00
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb 1-2: Product: VMware Virtual USB Hub
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usb 1-2: Manufacturer: VMware, Inc.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: hub 1-2:1.0: USB hub found
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: hub 1-2:1.0: 7 ports detected
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Freeing initrd memory: 71700K
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Segment Routing with IPv6
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: In-situ OAM (IOAM) with IPv6
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: NET: Registered PF_PACKET protocol family
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Key type dns_resolver registered
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: IPI shorthand broadcast: enabled
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sched_clock: Marking stable (3086010188, 3526447)->(3179527938, -89991303)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: registered taskstats version 1
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loading compiled-in X.509 certificates
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 3a28b99deb7e5c703eca7c8b2fa354b039f7c5ad'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing 2025 Kmod: d541cef61dc7e793b7eb7e899970a2eef0b5dc8c'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: blacklist: Loading compiled-in revocation X.509 certificates
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Key type .fscrypt registered
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Key type fscrypt-provisioning registered
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Key type encrypted registered
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: AppArmor: AppArmor sha256 policy hashing enabled
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ima: No TPM chip found, activating TPM-bypass!
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loading compiled-in module X.509 certificates
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 3a28b99deb7e5c703eca7c8b2fa354b039f7c5ad'
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ima: Allocated hash algorithm: sha256
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ima: No architecture policies found
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: evm: Initialising EVM extended attributes:
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: evm: security.selinux
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: evm: security.SMACK64
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: evm: security.SMACK64EXEC
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: evm: security.SMACK64TRANSMUTE
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: evm: security.SMACK64MMAP
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: evm: security.apparmor
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: evm: security.ima
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: evm: security.capability
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: evm: HMAC attrs: 0x1
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: PM:   Magic number: 1:837:916
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: tty ptmx: hash matches
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: acpi PNP0C80:8c: hash matches
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: acpi device:ea: hash matches
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: acpi PNP0501:12: hash matches
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: RAS: Correctable Errors collector initialized.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: clk: Disabling unused clocks
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Freeing unused decrypted memory: 2028K
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Freeing unused kernel image (initmem) memory: 4908K
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Write protecting the kernel read-only data: 36864k
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Freeing unused kernel image (rodata/data gap) memory: 372K
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Run /init as init process
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:   with arguments:
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:     /init
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:     auto
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:     noprompt
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:     splash
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:   with environment:
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:     HOME=/
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:     TERM=linux
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:     BOOT_IMAGE=/boot/vmlinuz-6.8.0-87-generic
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:     find_preseed=/preseed.cfg
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:     priority=critical
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:     locale=en_US
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Floppy drive(s): fd0 is 1.44M
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: FDC 0 is a post-1991 82077
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Fusion MPT base driver 3.04.20
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Copyright (c) 1999-2008 LSI Corporation
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ahci 0000:02:04.0: version 3.0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Fusion MPT SPI Host driver 3.04.20
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: e1000: Intel(R) PRO/1000 Network Driver
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: hid: raw HID events driver (C) Jiri Kosina
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: mptbase: ioc0: Initiating bringup
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ahci 0000:02:04.0: AHCI 0001.0300 32 slots 30 ports 6 Gbps 0x3fffffff impl SATA mode
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ahci 0000:02:04.0: flags: 64bit ncq clo only 
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usbcore: registered new interface driver usbhid
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: usbhid: USB HID core driver
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ioc0: LSI53C1030 B0: Capabilities={Initiator}
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: input: VMware VMware Virtual USB Mouse as /devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb1/1-1/1-1:1.0/0003:0E0F:0003.0001/input/input5
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: hid-generic 0003:0E0F:0003.0001: input,hidraw0: USB HID v1.10 Mouse [VMware VMware Virtual USB Mouse] on usb-0000:02:00.0-1/input0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host2: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host3: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host4: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host5: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host6: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host7: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host8: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host9: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host10: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host11: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host12: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host13: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host14: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host15: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host16: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host17: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host18: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host19: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host20: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host21: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host22: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host23: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host24: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host25: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host27: ioc0: LSI53C1030 B0, FwRev=01032920h, Ports=1, MaxQ=128, IRQ=17
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host26: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host28: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host29: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host30: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host31: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi host32: ahci
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata3: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee100 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata4: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee180 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata5: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee200 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata6: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee280 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata7: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee300 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata8: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee380 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata9: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee400 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata10: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee480 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata11: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee500 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata12: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee580 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata13: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee600 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata14: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee680 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata15: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee700 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata16: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee780 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata17: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee800 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata18: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee880 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata19: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee900 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata20: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee980 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata21: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eea00 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata22: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eea80 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata23: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eeb00 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata24: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eeb80 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata25: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eec00 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata26: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eec80 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata27: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eed00 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata28: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eed80 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata29: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eee00 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata30: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eee80 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata31: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eef00 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata32: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eef80 irq 56 lpm-pol 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi 27:0:0:0: Direct-Access     VMware,  VMware Virtual S 1.0  PQ: 0 ANSI: 2
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi target27:0:0: Beginning Domain Validation
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi target27:0:0: Domain Validation skipping write tests
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi target27:0:0: Ending Domain Validation
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi target27:0:0: FAST-40 WIDE SCSI 80.0 MB/s ST (25 ns, offset 127)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sd 27:0:0:0: [sda] 41943040 512-byte logical blocks: (21.5 GB/20.0 GiB)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sd 27:0:0:0: [sda] Write Protect is off
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sd 27:0:0:0: [sda] Mode Sense: 61 00 00 00
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sd 27:0:0:0: [sda] Cache data unavailable
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sd 27:0:0:0: [sda] Assuming drive cache: write through
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sd 27:0:0:0: Attached scsi generic sg0 type 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel:  sda: sda1 sda2 sda3
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sd 27:0:0:0: [sda] Attached SCSI disk
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: e1000 0000:02:01.0 eth0: (PCI:66MHz:32-bit) 00:0c:29:b5:44:56
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: e1000 0000:02:01.0 eth0: Intel(R) PRO/1000 Network Connection
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata18: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata23: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata14: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata21: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata9: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata19: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata16: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata22: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata12: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata4: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata17: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata8: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata15: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata6: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata20: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata10: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata5: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata13: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata11: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata7: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata3.00: ATAPI: VMware Virtual SATA CDRW Drive, 00000001, max UDMA/33
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata4.00: ATAPI: VMware Virtual SATA CDRW Drive, 00000001, max UDMA/33
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata3.00: configured for UDMA/33
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata4.00: configured for UDMA/33
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi 2:0:0:0: CD-ROM            NECVMWar VMware SATA CD00 1.00 PQ: 0 ANSI: 5
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sr 2:0:0:0: [sr0] scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata29: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata30: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata25: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata27: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata24: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata28: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata32: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata31: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ata26: SATA link down (SStatus 0 SControl 300)
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sr 2:0:0:0: Attached scsi CD-ROM sr0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sr 2:0:0:0: Attached scsi generic sg1 type 5
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: scsi 3:0:0:0: CD-ROM            NECVMWar VMware SATA CD01 1.00 PQ: 0 ANSI: 5
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sr 3:0:0:0: [sr1] scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sr 3:0:0:0: Attached scsi CD-ROM sr1
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: sr 3:0:0:0: Attached scsi generic sg2 type 5
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: e1000 0000:02:01.0 ens33: renamed from eth0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: EXT4-fs (sda3): mounted filesystem 9a956e20-d574-4d8c-8189-a2fd23ea1531 ro with ordered data mode. Quota mode: none.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Inserted module 'autofs4'
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: systemd 249.11-0ubuntu3.17 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Detected virtualization vmware.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Detected architecture x86-64.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Hostname set to <cyb3r-virtual-machine>.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: block sda: the capability attribute has been deprecated.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Queued start job for default target Graphical Interface.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Created slice Slice /system/modprobe.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Created slice Slice /system/systemd-fsck.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Created slice User and Session Slice.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Reached target User and Group Name Lookups.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Reached target Remote File Systems.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Reached target Slice Units.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Reached target Mounting snaps.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Reached target Local Verity Protected Volumes.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Listening on Syslog Socket.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Listening on fsck to fsckd communication Socket.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Listening on initctl Compatibility Named Pipe.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Listening on Journal Audit Socket.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Listening on Journal Socket (/dev/log).
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Listening on Journal Socket.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Listening on udev Control Socket.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Listening on udev Kernel Socket.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Huge Pages File System...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting POSIX Message Queue File System...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Kernel Debug File System...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Kernel Trace File System...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Journal Service...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Set the console keyboard layout...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Create List of Static Device Nodes...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Load Kernel Module configfs...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Load Kernel Module drm...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Load Kernel Module efi_pstore...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Load Kernel Module fuse...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Load Kernel Modules...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Remount Root and Kernel File Systems...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Coldplug All udev Devices...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounted Huge Pages File System.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounted POSIX Message Queue File System.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounted Kernel Debug File System.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounted Kernel Trace File System.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Finished Create List of Static Device Nodes.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Finished Load Kernel Module configfs.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: modprobe@drm.service: Deactivated successfully.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Finished Load Kernel Module drm.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Finished Load Kernel Module fuse.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting FUSE Control File System...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Kernel Configuration File System...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Finished Load Kernel Module efi_pstore.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounted FUSE Control File System.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounted Kernel Configuration File System.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: lp: driver loaded but no devices found
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting VMware vmblock fuse mount...
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: EXT4-fs (sda3): re-mounted 9a956e20-d574-4d8c-8189-a2fd23ea1531 r/w. Quota mode: none.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Finished Remount Root and Kernel File Systems.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: ppdev: user-space parallel port driver
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Activating swap /swapfile...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Load/Save Random Seed...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Create System Users...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounted VMware vmblock fuse mount.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Adding 2191356k swap on /swapfile.  Priority:-2 extents:6 across:2355196k 
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Activated swap /swapfile.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Reached target Swaps.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Finished Load/Save Random Seed.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Finished Create System Users.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: vgaarb: deactivate vga console
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Console: switching to colour dummy device 80x25
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Create Static Device Nodes in /dev...
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] FIFO at 0x00000000fe000000 size is 8192 kiB
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] VRAM at 0x00000000e8000000 size is 131072 kiB
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] Running on SVGA version 2.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, 8bit emulation, alpha cursor, 3D, extended fifo, multimon, pitchlock, irq mask, display topology, gmr, traces, gmr2, screen object 2, command buffers, command buffers 2, gbobject, dx, hp cmd queue, no bb restriction, cap2 register, 
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] Capabilities2: grow otable, intra surface copy, dx2, gb memsize 2, screendma reg, otable ptdepth2, non ms to ms stretchblt, cursor mob, mshint, cb max size 4mb, dx3, frame type, trace full fb, extra regs, lo staging, 
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] DMA map mode: Caching DMA mappings.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] Legacy memory limits: VRAM = 4096 kB, FIFO = 256 kB, surface = 0 kB
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] MOB limits: max mob size = 1048576 kB, max mob pages = 2097152
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] Max GMR ids is 64
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] Max number of GMR pages is 65536
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] Maximum display memory size is 262144 kiB
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] Screen Target display unit initialized
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Finished Set the console keyboard layout.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] Fifo max 0x00040000 min 0x00001000 cap 0x0000077f
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] Using command buffers with DMA pool.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] Available shader model: SM_5_1X.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: [drm] Initialized vmwgfx 2.20.0 20211206 for 0000:00:0f.0 on minor 0
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: fbcon: vmwgfxdrmfb (fb0) is primary device
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: Console: switching to colour frame buffer device 160x50
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: vmwgfx 0000:00:0f.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Finished Create Static Device Nodes in /dev.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Reached target Preparation for Local File Systems.
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Mount unit for bare, revision 5...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Mount unit for core22, revision 1122...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Mount unit for firefox, revision 3836...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Mount unit for gnome-42-2204, revision 141...
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: loop0: detected capacity change from 0 to 151992
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: loop1: detected capacity change from 0 to 8
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: loop2: detected capacity change from 0 to 1017816
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: loop3: detected capacity change from 0 to 187776
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Mount unit for gtk-common-themes, revision 1535...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Mount unit for snap-store, revision 959...
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: loop4: detected capacity change from 0 to 546064
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Mount unit for snapd, revision 20671...
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: loop5: detected capacity change from 0 to 25240
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: loop6: detected capacity change from 0 to 82800
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Mount unit for snapd-desktop-integration, revision 315...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Mount unit for snapd-desktop-integration, revision 83...
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: loop7: detected capacity change from 0 to 1152
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Mounting Mount unit for firefox, revision 3836 via mount-control...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Nov 07 22:54:40 cyb3r-virtual-machine systemd[1]: Started Journal Service.
+Nov 07 22:54:40 cyb3r-virtual-machine kernel: loop8: detected capacity change from 0 to 904
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: vmw_vmci 0000:00:07.7: MMIO register access is available
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: vmw_vmci 0000:00:07.7: Using capabilities 0x3c
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: Guest personality initialized and is active
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: VMCI host device registered (name=vmci, major=10, minor=122)
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: Initialized host personality
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574081.428:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=618 comm="apparmor_parser"
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574081.430:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=619 comm="apparmor_parser"
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574081.430:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=619 comm="apparmor_parser"
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574081.482:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=625 comm="apparmor_parser"
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574081.482:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=625 comm="apparmor_parser"
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574081.482:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=625 comm="apparmor_parser"
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574081.482:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/{,usr/}sbin/dhclient" pid=625 comm="apparmor_parser"
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574081.506:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=632 comm="apparmor_parser"
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574081.506:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=632 comm="apparmor_parser"
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574081.506:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=632 comm="apparmor_parser"
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: NET: Registered PF_VSOCK protocol family
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 10737418240 ms ovfl timer
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: RAPL PMU: hw unit of domain psys 2^-0 Joules
+Nov 07 22:54:41 cyb3r-virtual-machine kernel: cryptd: max_cpu_qlen set to 1000
+Nov 07 22:54:42 cyb3r-virtual-machine kernel: AVX2 version of gcm_enc/dec engaged.
+Nov 07 22:54:42 cyb3r-virtual-machine kernel: AES CTR mode by8 optimization enabled
+Nov 07 22:54:43 cyb3r-virtual-machine kernel: e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Nov 07 22:54:45 cyb3r-virtual-machine kernel: loop9: detected capacity change from 0 to 8
+Nov 07 22:54:46 cyb3r-virtual-machine kernel: evm: overlay not supported
+Nov 07 22:54:46 cyb3r-virtual-machine kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Nov 07 22:54:46 cyb3r-virtual-machine kernel: Bridge firewalling registered
+Nov 07 22:54:46 cyb3r-virtual-machine kernel: Initializing XFRM netlink socket
+Nov 07 22:54:49 cyb3r-virtual-machine kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 07 22:54:49 cyb3r-virtual-machine kernel: ISO 9660 Extensions: RRIP_1991A
+Nov 07 22:54:49 cyb3r-virtual-machine kernel: rfkill: input handler disabled
+Nov 07 22:54:53 cyb3r-virtual-machine kernel: input: VMware DnD UInput pointer as /devices/virtual/input/input6
+Nov 07 22:55:28 cyb3r-virtual-machine kernel: kauditd_printk_skb: 39 callbacks suppressed
+Nov 07 22:55:28 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574128.730:51): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/usr/local/share/" pid=2069 comm="snap-update-ns" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov 07 22:55:28 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574128.733:52): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=2069 comm="snap-update-ns" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov 07 22:55:28 cyb3r-virtual-machine kernel: audit: type=1400 audit(1762574128.736:53): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/var/lib/" pid=2069 comm="snap-update-ns" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov 07 22:55:31 cyb3r-virtual-machine kernel: audit: type=1107 audit(1762574131.533:54): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.13" pid=2047 label="snap.firefox.firefox" peer_pid=829 peer_label="unconfined"
+                                               exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+Nov 07 22:55:31 cyb3r-virtual-machine kernel: audit: type=1107 audit(1762574131.780:55): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.78" pid=2047 label="snap.firefox.firefox" peer_pid=2189 peer_label="unconfined"
+                                               exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+Nov 07 22:55:31 cyb3r-virtual-machine kernel: audit: type=1107 audit(1762574131.821:56): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.78" pid=2047 label="snap.firefox.firefox" peer_pid=2189 peer_label="unconfined"
+                                               exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+Nov 07 22:59:48 cyb3r-virtual-machine kernel: audit: type=1107 audit(1762574388.280:57): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.94" pid=2047 label="snap.firefox.firefox" peer_pid=2813 peer_label="unconfined"
+                                               exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+Nov 07 23:24:24 cyb3r-virtual-machine kernel: audit: type=1107 audit(1762575864.741:58): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.DBus.Properties" member="PropertiesChanged" name=":1.13" mask="receive" pid=2047 label="snap.firefox.firefox" peer_pid=829 peer_label="unconfined"
+                                               exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+Nov 07 23:24:33 cyb3r-virtual-machine kernel: audit: type=1107 audit(1762575873.751:59): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.DBus.Properties" member="PropertiesChanged" name=":1.13" mask="receive" pid=2047 label="snap.firefox.firefox" peer_pid=829 peer_label="unconfined"
+                                               exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+Nov 07 23:26:38 cyb3r-virtual-machine kernel: docker0: port 1(veth23d4980) entered blocking state
+Nov 07 23:26:38 cyb3r-virtual-machine kernel: docker0: port 1(veth23d4980) entered disabled state
+Nov 07 23:26:38 cyb3r-virtual-machine kernel: veth23d4980: entered allmulticast mode
+Nov 07 23:26:38 cyb3r-virtual-machine kernel: veth23d4980: entered promiscuous mode
+Nov 07 23:26:39 cyb3r-virtual-machine kernel: eth0: renamed from veth99ccaf6
+Nov 07 23:26:39 cyb3r-virtual-machine kernel: docker0: port 1(veth23d4980) entered blocking state
+Nov 07 23:26:39 cyb3r-virtual-machine kernel: docker0: port 1(veth23d4980) entered forwarding state
+Nov 07 23:27:32 cyb3r-virtual-machine kernel: docker0: port 1(veth23d4980) entered disabled state
+Nov 07 23:27:32 cyb3r-virtual-machine kernel: veth99ccaf6: renamed from eth0
+Nov 07 23:27:32 cyb3r-virtual-machine kernel: docker0: port 1(veth23d4980) entered disabled state
+Nov 07 23:27:32 cyb3r-virtual-machine kernel: veth23d4980 (unregistering): left allmulticast mode
+Nov 07 23:27:32 cyb3r-virtual-machine kernel: veth23d4980 (unregistering): left promiscuous mode
+Nov 07 23:27:32 cyb3r-virtual-machine kernel: docker0: port 1(veth23d4980) entered disabled state
+Nov 07 23:27:53 cyb3r-virtual-machine kernel: docker0: port 1(veth121d32e) entered blocking state
+Nov 07 23:27:53 cyb3r-virtual-machine kernel: docker0: port 1(veth121d32e) entered disabled state
+Nov 07 23:27:53 cyb3r-virtual-machine kernel: veth121d32e: entered allmulticast mode
+Nov 07 23:27:53 cyb3r-virtual-machine kernel: veth121d32e: entered promiscuous mode
+Nov 07 23:27:53 cyb3r-virtual-machine kernel: eth0: renamed from vetha106755
+Nov 07 23:27:53 cyb3r-virtual-machine kernel: docker0: port 1(veth121d32e) entered blocking state
+Nov 07 23:27:53 cyb3r-virtual-machine kernel: docker0: port 1(veth121d32e) entered forwarding state
+Nov 07 23:43:01 cyb3r-virtual-machine kernel: docker0: port 1(veth121d32e) entered disabled state
+Nov 07 23:43:01 cyb3r-virtual-machine kernel: vetha106755: renamed from eth0
+Nov 07 23:43:01 cyb3r-virtual-machine kernel: docker0: port 1(veth121d32e) entered disabled state
+Nov 07 23:43:01 cyb3r-virtual-machine kernel: veth121d32e (unregistering): left allmulticast mode
+Nov 07 23:43:01 cyb3r-virtual-machine kernel: veth121d32e (unregistering): left promiscuous mode
+Nov 07 23:43:01 cyb3r-virtual-machine kernel: docker0: port 1(veth121d32e) entered disabled state
+Nov 07 23:43:05 cyb3r-virtual-machine kernel: docker0: port 1(vethc9f8a32) entered blocking state
+Nov 07 23:43:05 cyb3r-virtual-machine kernel: docker0: port 1(vethc9f8a32) entered disabled state
+Nov 07 23:43:05 cyb3r-virtual-machine kernel: vethc9f8a32: entered allmulticast mode
+Nov 07 23:43:05 cyb3r-virtual-machine kernel: vethc9f8a32: entered promiscuous mode
+Nov 07 23:43:06 cyb3r-virtual-machine kernel: eth0: renamed from vethcbb3e8c
+Nov 07 23:43:06 cyb3r-virtual-machine kernel: docker0: port 1(vethc9f8a32) entered blocking state
+Nov 07 23:43:06 cyb3r-virtual-machine kernel: docker0: port 1(vethc9f8a32) entered forwarding state
+Nov 07 23:51:27 cyb3r-virtual-machine kernel: docker0: port 1(vethc9f8a32) entered disabled state
+Nov 07 23:51:27 cyb3r-virtual-machine kernel: vethcbb3e8c: renamed from eth0
+Nov 07 23:51:27 cyb3r-virtual-machine kernel: docker0: port 1(vethc9f8a32) entered disabled state
+Nov 07 23:51:27 cyb3r-virtual-machine kernel: vethc9f8a32 (unregistering): left allmulticast mode
+Nov 07 23:51:27 cyb3r-virtual-machine kernel: vethc9f8a32 (unregistering): left promiscuous mode
+Nov 07 23:51:27 cyb3r-virtual-machine kernel: docker0: port 1(vethc9f8a32) entered disabled state
+Nov 07 23:51:33 cyb3r-virtual-machine kernel: docker0: port 1(veth03ef304) entered blocking state
+Nov 07 23:51:33 cyb3r-virtual-machine kernel: docker0: port 1(veth03ef304) entered disabled state
+Nov 07 23:51:33 cyb3r-virtual-machine kernel: veth03ef304: entered allmulticast mode
+Nov 07 23:51:33 cyb3r-virtual-machine kernel: veth03ef304: entered promiscuous mode
+Nov 07 23:51:33 cyb3r-virtual-machine kernel: eth0: renamed from vethb27f8d0
+Nov 07 23:51:33 cyb3r-virtual-machine kernel: docker0: port 1(veth03ef304) entered blocking state
+Nov 07 23:51:33 cyb3r-virtual-machine kernel: docker0: port 1(veth03ef304) entered forwarding state
+Nov 07 23:58:35 cyb3r-virtual-machine kernel: audit: type=1107 audit(1762577915.367:60): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.DBus.Properties" member="PropertiesChanged" name=":1.13" mask="receive" pid=2047 label="snap.firefox.firefox" peer_pid=829 peer_label="unconfined"
+                                               exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+Nov 07 23:58:42 cyb3r-virtual-machine kernel: audit: type=1107 audit(1762577922.310:61): pid=782 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.DBus.Properties" member="PropertiesChanged" name=":1.13" mask="receive" pid=2047 label="snap.firefox.firefox" peer_pid=829 peer_label="unconfined"
+                                               exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'

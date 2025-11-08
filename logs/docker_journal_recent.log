@@ -1,0 +1,2 @@
+Nov 07 23:51:27 cyb3r-virtual-machine dockerd[1168]: time="2025-11-07T23:51:27.314944742-05:00" level=info msg="ignoring event" container=2077d025a2f44b8b9d51bcd26e4f23ee86aeca2cafcb7cab0c5f4427967dc41a module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Nov 07 23:51:27 cyb3r-virtual-machine dockerd[1168]: time="2025-11-07T23:51:27.330604403-05:00" level=warning msg="failed to close stdin: task 2077d025a2f44b8b9d51bcd26e4f23ee86aeca2cafcb7cab0c5f4427967dc41a not found: not found"
