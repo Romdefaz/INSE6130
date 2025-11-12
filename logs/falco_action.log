@@ -1,0 +1,14 @@
+[Wed Nov 12 22:46:49 UTC 2025] ⚠️  Priority: Warning; Rule: Container Working Directory in Proc Fd
+[Wed Nov 12 22:46:49 UTC 2025] 🔧 Found container: attack (367b692ddb61)
+[Wed Nov 12 22:46:49 UTC 2025] 🔴 Killing container 367b692ddb61 (main PID: 66920)
+[Wed Nov 12 22:46:49 UTC 2025] ✅ Container killed successfully for rule [Container Working Directory in Proc Fd]
+[Wed Nov 12 22:46:49 UTC 2025] 📦 Falco-action exit
+------------------------------------------------------------------------------------------
+[Wed Nov 12 22:46:49 UTC 2025] ⚠️  Priority: Notice; Rule: Terminal shell in container
+[Wed Nov 12 22:46:49 UTC 2025] ℹ️  It's not the Priority to kill
+[Wed Nov 12 22:46:49 UTC 2025] 📦 Falco-action exit
+------------------------------------------------------------------------------------------
+[Wed Nov 12 22:46:55 UTC 2025] ⚠️  Priority: Notice; Rule: Terminal shell in container
+[Wed Nov 12 22:46:55 UTC 2025] ℹ️  It's not the Priority to kill
+[Wed Nov 12 22:46:55 UTC 2025] 📦 Falco-action exit
+------------------------------------------------------------------------------------------

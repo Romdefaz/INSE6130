@@ -1,0 +1,13 @@
+- rule: Container Working Directory in Proc Fd
+  desc: Detect containers setting working directory in /proc/*/fd/ locations
+  condition: >
+    evt.type = chdir and
+    proc.cwd glob "/proc/self/fd/*"
+  output: >
+    Container set working directory in /proc/*/fd/ location |
+    (user=%user.name container_id=%container.id container_name=%container.name 
+     process=%proc.name proc_pid=%proc.pid image=%container.image.repository)
+  priority: WARNING
+  tags: [container, process, filesystem, suspicious]
+
+
