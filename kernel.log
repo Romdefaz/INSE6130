@@ -1,0 +1,1871 @@
+[Sun Nov 16 11:25:59 2025] Linux version 5.4.0-150-generic (buildd@bos03-amd64-012) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023 (Ubuntu 5.4.0-150.167~18.04.1-generic 5.4.233)
+[Sun Nov 16 11:25:59 2025] Command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-150-generic root=UUID=f1a044c7-7784-4ce3-a2d0-c5019c7f42e0 ro find_preseed=/preseed.cfg auto noprompt priority=critical locale=en_US quiet
+[Sun Nov 16 11:25:59 2025] KERNEL supported cpus:
+[Sun Nov 16 11:25:59 2025]   Intel GenuineIntel
+[Sun Nov 16 11:25:59 2025]   AMD AuthenticAMD
+[Sun Nov 16 11:25:59 2025]   Hygon HygonGenuine
+[Sun Nov 16 11:25:59 2025]   Centaur CentaurHauls
+[Sun Nov 16 11:25:59 2025]   zhaoxin   Shanghai  
+[Sun Nov 16 11:25:59 2025] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[Sun Nov 16 11:25:59 2025] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[Sun Nov 16 11:25:59 2025] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[Sun Nov 16 11:25:59 2025] x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+[Sun Nov 16 11:25:59 2025] x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+[Sun Nov 16 11:25:59 2025] x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+[Sun Nov 16 11:25:59 2025] x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+[Sun Nov 16 11:25:59 2025] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[Sun Nov 16 11:25:59 2025] x86/fpu: xstate_offset[5]:  832, xstate_sizes[5]:   64
+[Sun Nov 16 11:25:59 2025] x86/fpu: xstate_offset[6]:  896, xstate_sizes[6]:  512
+[Sun Nov 16 11:25:59 2025] x86/fpu: xstate_offset[7]: 1408, xstate_sizes[7]: 1024
+[Sun Nov 16 11:25:59 2025] x86/fpu: xstate_offset[9]: 2432, xstate_sizes[9]:    8
+[Sun Nov 16 11:25:59 2025] x86/fpu: Enabled xstate features 0x2e7, context size is 2440 bytes, using 'compacted' format.
+[Sun Nov 16 11:25:59 2025] BIOS-provided physical RAM map:
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x0000000000000000-0x000000000009e7ff] usable
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x000000000009e800-0x000000000009ffff] reserved
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x00000000000dc000-0x00000000000fffff] reserved
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x0000000000100000-0x00000000bfecffff] usable
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x00000000bfed0000-0x00000000bfefefff] ACPI data
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x00000000bfeff000-0x00000000bfefffff] ACPI NVS
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x00000000bff00000-0x00000000bfffffff] usable
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x00000000f0000000-0x00000000f7ffffff] reserved
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec0ffff] reserved
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x00000000fffe0000-0x00000000ffffffff] reserved
+[Sun Nov 16 11:25:59 2025] BIOS-e820: [mem 0x0000000100000000-0x000000013fffffff] usable
+[Sun Nov 16 11:25:59 2025] NX (Execute Disable) protection: active
+[Sun Nov 16 11:25:59 2025] SMBIOS 2.7 present.
+[Sun Nov 16 11:25:59 2025] DMI: VMware, Inc. VMware Virtual Platform/440BX Desktop Reference Platform, BIOS 6.00 11/12/2020
+[Sun Nov 16 11:25:59 2025] vmware: hypercall mode: 0x02
+[Sun Nov 16 11:25:59 2025] Hypervisor detected: VMware
+[Sun Nov 16 11:25:59 2025] vmware: TSC freq read from hypervisor : 2999.999 MHz
+[Sun Nov 16 11:25:59 2025] vmware: Host bus clock speed read from hypervisor : 66000000 Hz
+[Sun Nov 16 11:25:59 2025] vmware: using sched offset of 2835737415 ns
+[Sun Nov 16 11:25:59 2025] tsc: Detected 2999.999 MHz processor
+[Sun Nov 16 11:25:59 2025] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[Sun Nov 16 11:25:59 2025] e820: remove [mem 0x000a0000-0x000fffff] usable
+[Sun Nov 16 11:25:59 2025] last_pfn = 0x140000 max_arch_pfn = 0x400000000
+[Sun Nov 16 11:25:59 2025] MTRR default type: uncachable
+[Sun Nov 16 11:25:59 2025] MTRR fixed ranges enabled:
+[Sun Nov 16 11:25:59 2025]   00000-9FFFF write-back
+[Sun Nov 16 11:25:59 2025]   A0000-BFFFF uncachable
+[Sun Nov 16 11:25:59 2025]   C0000-CFFFF write-protect
+[Sun Nov 16 11:25:59 2025]   D0000-EFFFF uncachable
+[Sun Nov 16 11:25:59 2025]   F0000-FFFFF write-protect
+[Sun Nov 16 11:25:59 2025] MTRR variable ranges enabled:
+[Sun Nov 16 11:25:59 2025]   0 base 000000000000 mask 1FE000000000 write-back
+[Sun Nov 16 11:25:59 2025]   1 base 0000C0000000 mask 1FFFC0000000 uncachable
+[Sun Nov 16 11:25:59 2025]   2 disabled
+[Sun Nov 16 11:25:59 2025]   3 disabled
+[Sun Nov 16 11:25:59 2025]   4 disabled
+[Sun Nov 16 11:25:59 2025]   5 disabled
+[Sun Nov 16 11:25:59 2025]   6 disabled
+[Sun Nov 16 11:25:59 2025]   7 disabled
+[Sun Nov 16 11:25:59 2025] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[Sun Nov 16 11:25:59 2025] total RAM covered: 130048M
+[Sun Nov 16 11:25:59 2025] Found optimal setting for mtrr clean up
+[Sun Nov 16 11:25:59 2025]  gran_size: 64K 	chunk_size: 64K 	num_reg: 7  	lose cover RAM: 0G
+[Sun Nov 16 11:25:59 2025] e820: update [mem 0xc0000000-0xffffffff] usable ==> reserved
+[Sun Nov 16 11:25:59 2025] last_pfn = 0xc0000 max_arch_pfn = 0x400000000
+[Sun Nov 16 11:25:59 2025] found SMP MP-table at [mem 0x000f6a70-0x000f6a7f]
+[Sun Nov 16 11:25:59 2025] check: Scanning 1 areas for low memory corruption
+[Sun Nov 16 11:25:59 2025] Using GB pages for direct mapping
+[Sun Nov 16 11:25:59 2025] RAMDISK: [mem 0x32d59000-0x356a3fff]
+[Sun Nov 16 11:25:59 2025] ACPI: Early table checksum verification disabled
+[Sun Nov 16 11:25:59 2025] ACPI: RSDP 0x00000000000F6A00 000024 (v02 PTLTD )
+[Sun Nov 16 11:25:59 2025] ACPI: XSDT 0x00000000BFEDC633 00005C (v01 INTEL  440BX    06040000 VMW  01324272)
+[Sun Nov 16 11:25:59 2025] ACPI: FACP 0x00000000BFEFEE73 0000F4 (v04 INTEL  440BX    06040000 PTL  000F4240)
+[Sun Nov 16 11:25:59 2025] ACPI: DSDT 0x00000000BFEDD9E8 02148B (v01 PTLTD  Custom   06040000 MSFT 03000001)
+[Sun Nov 16 11:25:59 2025] ACPI: FACS 0x00000000BFEFFFC0 000040
+[Sun Nov 16 11:25:59 2025] ACPI: FACS 0x00000000BFEFFFC0 000040
+[Sun Nov 16 11:25:59 2025] ACPI: BOOT 0x00000000BFEDD9C0 000028 (v01 PTLTD  $SBFTBL$ 06040000  LTP 00000001)
+[Sun Nov 16 11:25:59 2025] ACPI: APIC 0x00000000BFEDD27E 000742 (v01 PTLTD  ? APIC   06040000  LTP 00000000)
+[Sun Nov 16 11:25:59 2025] ACPI: MCFG 0x00000000BFEDD242 00003C (v01 PTLTD  $PCITBL$ 06040000  LTP 00000001)
+[Sun Nov 16 11:25:59 2025] ACPI: SRAT 0x00000000BFEDC72F 0008D0 (v02 VMWARE MEMPLUG  06040000 VMW  00000001)
+[Sun Nov 16 11:25:59 2025] ACPI: HPET 0x00000000BFEDC6F7 000038 (v01 VMWARE VMW HPET 06040000 VMW  00000001)
+[Sun Nov 16 11:25:59 2025] ACPI: WAET 0x00000000BFEDC6CF 000028 (v01 VMWARE VMW WAET 06040000 VMW  00000001)
+[Sun Nov 16 11:25:59 2025] ACPI: Reserving FACP table memory at [mem 0xbfefee73-0xbfefef66]
+[Sun Nov 16 11:25:59 2025] ACPI: Reserving DSDT table memory at [mem 0xbfedd9e8-0xbfefee72]
+[Sun Nov 16 11:25:59 2025] ACPI: Reserving FACS table memory at [mem 0xbfefffc0-0xbfefffff]
+[Sun Nov 16 11:25:59 2025] ACPI: Reserving FACS table memory at [mem 0xbfefffc0-0xbfefffff]
+[Sun Nov 16 11:25:59 2025] ACPI: Reserving BOOT table memory at [mem 0xbfedd9c0-0xbfedd9e7]
+[Sun Nov 16 11:25:59 2025] ACPI: Reserving APIC table memory at [mem 0xbfedd27e-0xbfedd9bf]
+[Sun Nov 16 11:25:59 2025] ACPI: Reserving MCFG table memory at [mem 0xbfedd242-0xbfedd27d]
+[Sun Nov 16 11:25:59 2025] ACPI: Reserving SRAT table memory at [mem 0xbfedc72f-0xbfedcffe]
+[Sun Nov 16 11:25:59 2025] ACPI: Reserving HPET table memory at [mem 0xbfedc6f7-0xbfedc72e]
+[Sun Nov 16 11:25:59 2025] ACPI: Reserving WAET table memory at [mem 0xbfedc6cf-0xbfedc6f6]
+[Sun Nov 16 11:25:59 2025] ACPI: Local APIC address 0xfee00000
+[Sun Nov 16 11:25:59 2025] system APIC only can use physical flat
+[Sun Nov 16 11:25:59 2025] Setting APIC routing to physical flat.
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x00 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x02 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x04 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x06 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x08 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x0a -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x0c -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x0e -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x10 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x12 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x14 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x16 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x18 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x1a -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x1c -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x1e -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x20 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x22 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x24 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x26 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x28 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x2a -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x2c -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x2e -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x30 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x32 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x34 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x36 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x38 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x3a -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x3c -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x3e -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x40 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x42 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x44 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x46 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x48 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x4a -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x4c -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x4e -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x50 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x52 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x54 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x56 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x58 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x5a -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x5c -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x5e -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x60 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x62 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x64 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x66 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x68 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x6a -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x6c -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x6e -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x70 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x72 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x74 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x76 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x78 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x7a -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x7c -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x7e -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x80 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x82 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x84 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x86 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x88 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x8a -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x8c -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x8e -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x90 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x92 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x94 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x96 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x98 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x9a -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x9c -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0x9e -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xa0 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xa2 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xa4 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xa6 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xa8 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xaa -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xac -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xae -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xb0 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xb2 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xb4 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xb6 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xb8 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xba -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xbc -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xbe -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xc0 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xc2 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xc4 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xc6 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xc8 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xca -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xcc -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xce -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xd0 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xd2 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xd4 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xd6 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xd8 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xda -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xdc -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xde -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xe0 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xe2 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xe4 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xe6 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xe8 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xea -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xec -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xee -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xf0 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xf2 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xf4 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xf6 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xf8 -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xfa -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xfc -> Node 0
+[Sun Nov 16 11:25:59 2025] SRAT: PXM 0 -> APIC 0xfe -> Node 0
+[Sun Nov 16 11:25:59 2025] ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0x0009ffff]
+[Sun Nov 16 11:25:59 2025] ACPI: SRAT: Node 0 PXM 0 [mem 0x00100000-0xbfffffff]
+[Sun Nov 16 11:25:59 2025] ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000-0x13fffffff]
+[Sun Nov 16 11:25:59 2025] ACPI: SRAT: Node 0 PXM 0 [mem 0x140000000-0x103fffffff] hotplug
+[Sun Nov 16 11:25:59 2025] NUMA: Node 0 [mem 0x00000000-0x0009ffff] + [mem 0x00100000-0xbfffffff] -> [mem 0x00000000-0xbfffffff]
+[Sun Nov 16 11:25:59 2025] NUMA: Node 0 [mem 0x00000000-0xbfffffff] + [mem 0x100000000-0x13fffffff] -> [mem 0x00000000-0x13fffffff]
+[Sun Nov 16 11:25:59 2025] NODE_DATA(0) allocated [mem 0x13ffd3000-0x13fffdfff]
+[Sun Nov 16 11:25:59 2025] Zone ranges:
+[Sun Nov 16 11:25:59 2025]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[Sun Nov 16 11:25:59 2025]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[Sun Nov 16 11:25:59 2025]   Normal   [mem 0x0000000100000000-0x000000013fffffff]
+[Sun Nov 16 11:25:59 2025]   Device   empty
+[Sun Nov 16 11:25:59 2025] Movable zone start for each node
+[Sun Nov 16 11:25:59 2025] Early memory node ranges
+[Sun Nov 16 11:25:59 2025]   node   0: [mem 0x0000000000001000-0x000000000009dfff]
+[Sun Nov 16 11:25:59 2025]   node   0: [mem 0x0000000000100000-0x00000000bfecffff]
+[Sun Nov 16 11:25:59 2025]   node   0: [mem 0x00000000bff00000-0x00000000bfffffff]
+[Sun Nov 16 11:25:59 2025]   node   0: [mem 0x0000000100000000-0x000000013fffffff]
+[Sun Nov 16 11:25:59 2025] Zeroed struct page in unavailable ranges: 147 pages
+[Sun Nov 16 11:25:59 2025] Initmem setup node 0 [mem 0x0000000000001000-0x000000013fffffff]
+[Sun Nov 16 11:25:59 2025] On node 0 totalpages: 1048429
+[Sun Nov 16 11:25:59 2025]   DMA zone: 64 pages used for memmap
+[Sun Nov 16 11:25:59 2025]   DMA zone: 21 pages reserved
+[Sun Nov 16 11:25:59 2025]   DMA zone: 3997 pages, LIFO batch:0
+[Sun Nov 16 11:25:59 2025]   DMA32 zone: 12224 pages used for memmap
+[Sun Nov 16 11:25:59 2025]   DMA32 zone: 782288 pages, LIFO batch:63
+[Sun Nov 16 11:25:59 2025]   Normal zone: 4096 pages used for memmap
+[Sun Nov 16 11:25:59 2025]   Normal zone: 262144 pages, LIFO batch:63
+[Sun Nov 16 11:25:59 2025] ACPI: PM-Timer IO Port: 0x1008
+[Sun Nov 16 11:25:59 2025] ACPI: Local APIC address 0xfee00000
+[Sun Nov 16 11:25:59 2025] system APIC only can use physical flat
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x10] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x11] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x12] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x13] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x14] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x15] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x16] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x17] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x18] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x19] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x1a] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x1b] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x1c] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x1d] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x1e] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x1f] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x20] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x21] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x22] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x23] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x24] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x25] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x26] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x27] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x28] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x29] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x2a] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x2b] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x2c] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x2d] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x2e] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x2f] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x30] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x31] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x32] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x33] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x34] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x35] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x36] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x37] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x38] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x39] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x3a] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x3b] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x3c] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x3d] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x3e] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x3f] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x40] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x41] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x42] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x43] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x44] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x45] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x46] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x47] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x48] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x49] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x4a] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x4b] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x4c] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x4d] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x4e] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x4f] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x50] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x51] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x52] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x53] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x54] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x55] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x56] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x57] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x58] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x59] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x5a] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x5b] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x5c] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x5d] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x5e] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x5f] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x60] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x61] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x62] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x63] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x64] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x65] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x66] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x67] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x68] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x69] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x6a] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x6b] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x6c] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x6d] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x6e] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x6f] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x70] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x71] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x72] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x73] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x74] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x75] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x76] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x77] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x78] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x79] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x7a] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x7b] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x7c] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x7d] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x7e] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] ACPI: LAPIC_NMI (acpi_id[0x7f] high edge lint[0x1])
+[Sun Nov 16 11:25:59 2025] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+[Sun Nov 16 11:25:59 2025] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 high edge)
+[Sun Nov 16 11:25:59 2025] ACPI: IRQ0 used by override.
+[Sun Nov 16 11:25:59 2025] ACPI: IRQ9 used by override.
+[Sun Nov 16 11:25:59 2025] Using ACPI (MADT) for SMP configuration information
+[Sun Nov 16 11:25:59 2025] ACPI: HPET id: 0x8086af01 base: 0xfed00000
+[Sun Nov 16 11:25:59 2025] TSC deadline timer available
+[Sun Nov 16 11:25:59 2025] smpboot: Allowing 128 CPUs, 126 hotplug CPUs
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0x0009e000-0x0009efff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0x000a0000-0x000dbfff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0x000dc000-0x000fffff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0xbfed0000-0xbfefefff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0xbfeff000-0xbfefffff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0xc0000000-0xefffffff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0xf0000000-0xf7ffffff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0xf8000000-0xfebfffff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0xfec00000-0xfec0ffff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0xfec10000-0xfedfffff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0xfee01000-0xfffdffff]
+[Sun Nov 16 11:25:59 2025] PM: Registered nosave memory: [mem 0xfffe0000-0xffffffff]
+[Sun Nov 16 11:25:59 2025] [mem 0xc0000000-0xefffffff] available for PCI devices
+[Sun Nov 16 11:25:59 2025] Booting paravirtualized kernel on VMware hypervisor
+[Sun Nov 16 11:25:59 2025] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+[Sun Nov 16 11:25:59 2025] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:128 nr_cpu_ids:128 nr_node_ids:1
+[Sun Nov 16 11:25:59 2025] percpu: Embedded 60 pages/cpu s208896 r8192 d28672 u262144
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: s208896 r8192 d28672 u262144 alloc=1*2097152
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 000 001 002 003 004 005 006 007 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 008 009 010 011 012 013 014 015 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 016 017 018 019 020 021 022 023 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 024 025 026 027 028 029 030 031 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 032 033 034 035 036 037 038 039 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 040 041 042 043 044 045 046 047 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 048 049 050 051 052 053 054 055 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 056 057 058 059 060 061 062 063 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 064 065 066 067 068 069 070 071 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 072 073 074 075 076 077 078 079 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 080 081 082 083 084 085 086 087 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 088 089 090 091 092 093 094 095 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 096 097 098 099 100 101 102 103 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 104 105 106 107 108 109 110 111 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 112 113 114 115 116 117 118 119 
+[Sun Nov 16 11:25:59 2025] pcpu-alloc: [0] 120 121 122 123 124 125 126 127 
+[Sun Nov 16 11:25:59 2025] Built 1 zonelists, mobility grouping on.  Total pages: 1032024
+[Sun Nov 16 11:25:59 2025] Policy zone: Normal
+[Sun Nov 16 11:25:59 2025] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-150-generic root=UUID=f1a044c7-7784-4ce3-a2d0-c5019c7f42e0 ro find_preseed=/preseed.cfg auto noprompt priority=critical locale=en_US quiet
+[Sun Nov 16 11:25:59 2025] printk: log_buf_len individual max cpu contribution: 4096 bytes
+[Sun Nov 16 11:25:59 2025] printk: log_buf_len total cpu_extra contributions: 520192 bytes
+[Sun Nov 16 11:25:59 2025] printk: log_buf_len min size: 262144 bytes
+[Sun Nov 16 11:25:59 2025] printk: log_buf_len: 1048576 bytes
+[Sun Nov 16 11:25:59 2025] printk: early log buf free: 234276(89%)
+[Sun Nov 16 11:25:59 2025] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[Sun Nov 16 11:25:59 2025] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[Sun Nov 16 11:25:59 2025] mem auto-init: stack:off, heap alloc:on, heap free:off
+[Sun Nov 16 11:25:59 2025] Calgary: detecting Calgary via BIOS EBDA area
+[Sun Nov 16 11:25:59 2025] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+[Sun Nov 16 11:25:59 2025] Memory: 3944788K/4193716K available (14339K kernel code, 2375K rwdata, 9472K rodata, 2748K init, 4980K bss, 248928K reserved, 0K cma-reserved)
+[Sun Nov 16 11:25:59 2025] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=128, Nodes=1
+[Sun Nov 16 11:25:59 2025] ftrace: allocating 44386 entries in 174 pages
+[Sun Nov 16 11:25:59 2025] rcu: Hierarchical RCU implementation.
+[Sun Nov 16 11:25:59 2025] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=128.
+[Sun Nov 16 11:25:59 2025] 	Tasks RCU enabled.
+[Sun Nov 16 11:25:59 2025] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[Sun Nov 16 11:25:59 2025] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=128
+[Sun Nov 16 11:25:59 2025] NR_IRQS: 524544, nr_irqs: 1448, preallocated irqs: 16
+[Sun Nov 16 11:25:59 2025] random: crng init done
+[Sun Nov 16 11:25:59 2025] Console: colour VGA+ 80x25
+[Sun Nov 16 11:25:59 2025] printk: console [tty0] enabled
+[Sun Nov 16 11:25:59 2025] ACPI: Core revision 20190816
+[Sun Nov 16 11:25:59 2025] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+[Sun Nov 16 11:25:59 2025] APIC: Switch to symmetric I/O mode setup
+[Sun Nov 16 11:25:59 2025] x2apic enabled
+[Sun Nov 16 11:25:59 2025] Switched APIC routing to physical x2apic.
+[Sun Nov 16 11:25:59 2025] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[Sun Nov 16 11:25:59 2025] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2b3e44b2357, max_idle_ns: 440795324996 ns
+[Sun Nov 16 11:25:59 2025] Calibrating delay loop (skipped) preset value.. 5999.99 BogoMIPS (lpj=11999996)
+[Sun Nov 16 11:25:59 2025] pid_max: default: 131072 minimum: 1024
+[Sun Nov 16 11:25:59 2025] LSM: Security Framework initializing
+[Sun Nov 16 11:25:59 2025] Yama: becoming mindful.
+[Sun Nov 16 11:25:59 2025] AppArmor: AppArmor initialized
+[Sun Nov 16 11:25:59 2025] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[Sun Nov 16 11:25:59 2025] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[Sun Nov 16 11:25:59 2025] *** VALIDATE tmpfs ***
+[Sun Nov 16 11:25:59 2025] *** VALIDATE proc ***
+[Sun Nov 16 11:25:59 2025] *** VALIDATE cgroup1 ***
+[Sun Nov 16 11:25:59 2025] *** VALIDATE cgroup2 ***
+[Sun Nov 16 11:25:59 2025] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+[Sun Nov 16 11:25:59 2025] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+[Sun Nov 16 11:25:59 2025] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+[Sun Nov 16 11:25:59 2025] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[Sun Nov 16 11:25:59 2025] Spectre V2 : Mitigation: Enhanced IBRS
+[Sun Nov 16 11:25:59 2025] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[Sun Nov 16 11:25:59 2025] Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+[Sun Nov 16 11:25:59 2025] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[Sun Nov 16 11:25:59 2025] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+[Sun Nov 16 11:25:59 2025] MMIO Stale Data: Unknown: No mitigations
+[Sun Nov 16 11:25:59 2025] Freeing SMP alternatives memory: 40K
+[Sun Nov 16 11:25:59 2025] smpboot: CPU0: Intel(R) Xeon(R) w3-2425 (family: 0x6, model: 0x8f, stepping: 0x8)
+[Sun Nov 16 11:25:59 2025] Performance Events: generic architected perfmon v1, core PMU driver.
+[Sun Nov 16 11:25:59 2025] core: CPUID marked event: 'cpu cycles' unavailable
+[Sun Nov 16 11:25:59 2025] core: CPUID marked event: 'instructions' unavailable
+[Sun Nov 16 11:25:59 2025] core: CPUID marked event: 'bus cycles' unavailable
+[Sun Nov 16 11:25:59 2025] core: CPUID marked event: 'cache references' unavailable
+[Sun Nov 16 11:25:59 2025] core: CPUID marked event: 'cache misses' unavailable
+[Sun Nov 16 11:25:59 2025] core: CPUID marked event: 'branch instructions' unavailable
+[Sun Nov 16 11:25:59 2025] core: CPUID marked event: 'branch misses' unavailable
+[Sun Nov 16 11:25:59 2025] ... version:                1
+[Sun Nov 16 11:25:59 2025] ... bit width:              48
+[Sun Nov 16 11:25:59 2025] ... generic registers:      8
+[Sun Nov 16 11:25:59 2025] ... value mask:             0000ffffffffffff
+[Sun Nov 16 11:25:59 2025] ... max period:             000000007fffffff
+[Sun Nov 16 11:25:59 2025] ... fixed-purpose events:   0
+[Sun Nov 16 11:25:59 2025] ... event mask:             00000000000000ff
+[Sun Nov 16 11:25:59 2025] rcu: Hierarchical SRCU implementation.
+[Sun Nov 16 11:25:59 2025] NMI watchdog: Perf NMI watchdog permanently disabled
+[Sun Nov 16 11:25:59 2025] smp: Bringing up secondary CPUs ...
+[Sun Nov 16 11:25:59 2025] x86: Booting SMP configuration:
+[Sun Nov 16 11:25:59 2025] .... node  #0, CPUs:          #1
+[Sun Nov 16 11:25:59 2025] smpboot: CPU 1 Converting physical 2 to logical package 1
+[Sun Nov 16 11:25:59 2025] smpboot: CPU 1 Converting physical 0 to logical die 1
+[Sun Nov 16 11:25:59 2025] smp: Brought up 1 node, 2 CPUs
+[Sun Nov 16 11:25:59 2025] smpboot: Max logical packages: 128
+[Sun Nov 16 11:25:59 2025] smpboot: Total of 2 processors activated (11999.99 BogoMIPS)
+[Sun Nov 16 11:25:59 2025] devtmpfs: initialized
+[Sun Nov 16 11:25:59 2025] x86/mm: Memory block size: 128MB
+[Sun Nov 16 11:25:59 2025] PM: Registering ACPI NVS region [mem 0xbfeff000-0xbfefffff] (4096 bytes)
+[Sun Nov 16 11:25:59 2025] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[Sun Nov 16 11:25:59 2025] futex hash table entries: 32768 (order: 9, 2097152 bytes, linear)
+[Sun Nov 16 11:25:59 2025] pinctrl core: initialized pinctrl subsystem
+[Sun Nov 16 11:25:59 2025] PM: RTC time: 14:25:59, date: 2025-11-16
+[Sun Nov 16 11:25:59 2025] NET: Registered protocol family 16
+[Sun Nov 16 11:25:59 2025] audit: initializing netlink subsys (disabled)
+[Sun Nov 16 11:25:59 2025] audit: type=2000 audit(1763303159.016:1): state=initialized audit_enabled=0 res=1
+[Sun Nov 16 11:25:59 2025] EISA bus registered
+[Sun Nov 16 11:25:59 2025] cpuidle: using governor ladder
+[Sun Nov 16 11:25:59 2025] cpuidle: using governor menu
+[Sun Nov 16 11:25:59 2025] Simple Boot Flag at 0x36 set to 0x80
+[Sun Nov 16 11:25:59 2025] ACPI: bus type PCI registered
+[Sun Nov 16 11:25:59 2025] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[Sun Nov 16 11:25:59 2025] PCI: MMCONFIG for domain 0000 [bus 00-7f] at [mem 0xf0000000-0xf7ffffff] (base 0xf0000000)
+[Sun Nov 16 11:25:59 2025] PCI: MMCONFIG at [mem 0xf0000000-0xf7ffffff] reserved in E820
+[Sun Nov 16 11:25:59 2025] PCI: Using configuration type 1 for base access
+[Sun Nov 16 11:25:59 2025] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[Sun Nov 16 11:25:59 2025] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[Sun Nov 16 11:25:59 2025] ACPI: Added _OSI(Module Device)
+[Sun Nov 16 11:25:59 2025] ACPI: Added _OSI(Processor Device)
+[Sun Nov 16 11:25:59 2025] ACPI: Added _OSI(3.0 _SCP Extensions)
+[Sun Nov 16 11:25:59 2025] ACPI: Added _OSI(Processor Aggregator Device)
+[Sun Nov 16 11:25:59 2025] ACPI: Added _OSI(Linux-Dell-Video)
+[Sun Nov 16 11:25:59 2025] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[Sun Nov 16 11:25:59 2025] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[Sun Nov 16 11:25:59 2025] ACPI: 1 ACPI AML tables successfully acquired and loaded
+[Sun Nov 16 11:25:59 2025] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[Sun Nov 16 11:25:59 2025] ACPI: Interpreter enabled
+[Sun Nov 16 11:25:59 2025] ACPI: (supports S0 S1 S4 S5)
+[Sun Nov 16 11:25:59 2025] ACPI: Using IOAPIC for interrupt routing
+[Sun Nov 16 11:25:59 2025] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[Sun Nov 16 11:25:59 2025] ACPI: Enabled 4 GPEs in block 00 to 0F
+[Sun Nov 16 11:25:59 2025] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-7f])
+[Sun Nov 16 11:25:59 2025] acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+[Sun Nov 16 11:25:59 2025] acpi PNP0A03:00: _OSC: platform does not support [AER LTR]
+[Sun Nov 16 11:25:59 2025] acpi PNP0A03:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME PCIeCapability]
+[Sun Nov 16 11:25:59 2025] PCI host bridge to bus 0000:00
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000d3fff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: root bus resource [mem 0x000d4000-0x000d7fff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: root bus resource [mem 0x000d8000-0x000dbfff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: root bus resource [io  0x0d00-0xfeff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: root bus resource [bus 00-7f]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:00.0: [8086:7190] type 00 class 0x060000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:01.0: [8086:7191] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.0: [8086:7110] type 00 class 0x060100
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.1: [8086:7111] type 00 class 0x01018a
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.1: reg 0x20: [io  0x1060-0x106f]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.3: [8086:7113] type 00 class 0x068000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.3: quirk: [io  0x1000-0x103f] claimed by PIIX4 ACPI
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.3: quirk: [io  0x1040-0x104f] claimed by PIIX4 SMB
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.7: [15ad:0740] type 00 class 0x088000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.7: reg 0x10: [io  0x1080-0x10bf]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:07.7: reg 0x14: [mem 0xfebc0000-0xfebfffff 64bit]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:0f.0: [15ad:0405] type 00 class 0x030000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:0f.0: reg 0x10: [io  0x1070-0x107f]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:0f.0: reg 0x14: [mem 0xe8000000-0xefffffff pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:0f.0: reg 0x18: [mem 0xfe000000-0xfe7fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:0f.0: reg 0x30: [mem 0x00000000-0x00007fff pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:10.0: [1000:0030] type 00 class 0x010000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:10.0: reg 0x10: [io  0x1400-0x14ff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:10.0: reg 0x14: [mem 0xfeb80000-0xfeb9ffff 64bit]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:10.0: reg 0x1c: [mem 0xfeba0000-0xfebbffff 64bit]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:10.0: reg 0x30: [mem 0x00000000-0x00003fff pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0: [15ad:0790] type 01 class 0x060401
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.0: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.0: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.1: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.1: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.2: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.2: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.0: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.1: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.1: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.2: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.2: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.0: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.0: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.1: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.1: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.2: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.2: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.0: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.0: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.1: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.1: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7: [15ad:07a0] type 01 class 0x060400
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:01: extended config space not accessible
+[Sun Nov 16 11:25:59 2025] pci 0000:00:01.0: PCI bridge to [bus 01]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:02: extended config space not accessible
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [32] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [33] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [34] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [35] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [36] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [37] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [38] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [39] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [40] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [41] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [42] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [43] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [44] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [45] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [46] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [47] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [48] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [49] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [50] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [51] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [52] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [53] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [54] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [55] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [56] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [57] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [58] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [59] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [60] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [61] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [62] registered
+[Sun Nov 16 11:25:59 2025] acpiphp: Slot [63] registered
+[Sun Nov 16 11:25:59 2025] pci 0000:02:00.0: [15ad:0774] type 00 class 0x0c0300
+[Sun Nov 16 11:25:59 2025] pci 0000:02:00.0: reg 0x20: [io  0x2080-0x209f]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:01.0: [8086:100f] type 00 class 0x020000
+[Sun Nov 16 11:25:59 2025] pci 0000:02:01.0: reg 0x10: [mem 0xfd5c0000-0xfd5dffff 64bit]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:01.0: reg 0x18: [mem 0xfdff0000-0xfdffffff 64bit]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:01.0: reg 0x20: [io  0x2000-0x203f]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:01.0: reg 0x30: [mem 0x00000000-0x0000ffff pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:01.0: PME# supported from D0 D3hot D3cold
+[Sun Nov 16 11:25:59 2025] pci 0000:02:02.0: [1274:1371] type 00 class 0x040100
+[Sun Nov 16 11:25:59 2025] pci 0000:02:02.0: reg 0x10: [io  0x2040-0x207f]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:03.0: [15ad:0770] type 00 class 0x0c0320
+[Sun Nov 16 11:25:59 2025] pci 0000:02:03.0: reg 0x10: [mem 0xfd5ef000-0xfd5effff]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:04.0: [15ad:07e0] type 00 class 0x010601
+[Sun Nov 16 11:25:59 2025] pci 0000:02:04.0: reg 0x24: [mem 0xfd5ee000-0xfd5eefff]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:04.0: reg 0x30: [mem 0x00000000-0x0000ffff pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:04.0: PME# supported from D3hot
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0: PCI bridge to [bus 02] (subtractive decode)
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [mem 0xfd500000-0xfdffffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [mem 0xe7b00000-0xe7ffffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [mem 0x000d0000-0x000d3fff window] (subtractive decode)
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [mem 0x000d4000-0x000d7fff window] (subtractive decode)
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [mem 0x000d8000-0x000dbfff window] (subtractive decode)
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [mem 0xc0000000-0xfebfffff window] (subtractive decode)
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [io  0x0d00-0xfeff window] (subtractive decode)
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.0: PCI bridge to [bus 03]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.0:   bridge window [mem 0xfd400000-0xfd4fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.0:   bridge window [mem 0xe7a00000-0xe7afffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.1: PCI bridge to [bus 04]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.1:   bridge window [mem 0xfd000000-0xfd0fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.1:   bridge window [mem 0xe7600000-0xe76fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.2: PCI bridge to [bus 05]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.2:   bridge window [mem 0xfcc00000-0xfccfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.2:   bridge window [mem 0xe7200000-0xe72fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3: PCI bridge to [bus 06]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3:   bridge window [mem 0xfc800000-0xfc8fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3:   bridge window [mem 0xe6e00000-0xe6efffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4: PCI bridge to [bus 07]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4:   bridge window [mem 0xfc400000-0xfc4fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4:   bridge window [mem 0xe6a00000-0xe6afffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5: PCI bridge to [bus 08]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5:   bridge window [mem 0xfc000000-0xfc0fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5:   bridge window [mem 0xe6600000-0xe66fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6: PCI bridge to [bus 09]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6:   bridge window [mem 0xfbc00000-0xfbcfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6:   bridge window [mem 0xe6200000-0xe62fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7: PCI bridge to [bus 0a]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7:   bridge window [mem 0xfb800000-0xfb8fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7:   bridge window [mem 0xe5e00000-0xe5efffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.0: PCI bridge to [bus 0b]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.0:   bridge window [mem 0xfd300000-0xfd3fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.0:   bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.1: PCI bridge to [bus 0c]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.1:   bridge window [mem 0xfcf00000-0xfcffffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.1:   bridge window [mem 0xe7500000-0xe75fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.2: PCI bridge to [bus 0d]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.2:   bridge window [mem 0xfcb00000-0xfcbfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.2:   bridge window [mem 0xe7100000-0xe71fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3: PCI bridge to [bus 0e]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3:   bridge window [mem 0xfc700000-0xfc7fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3:   bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4: PCI bridge to [bus 0f]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4:   bridge window [mem 0xfc300000-0xfc3fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4:   bridge window [mem 0xe6900000-0xe69fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5: PCI bridge to [bus 10]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5:   bridge window [mem 0xfbf00000-0xfbffffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5:   bridge window [mem 0xe6500000-0xe65fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6: PCI bridge to [bus 11]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6:   bridge window [mem 0xfbb00000-0xfbbfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6:   bridge window [mem 0xe6100000-0xe61fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7: PCI bridge to [bus 12]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7:   bridge window [mem 0xfb700000-0xfb7fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7:   bridge window [mem 0xe5d00000-0xe5dfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.0: PCI bridge to [bus 13]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.0:   bridge window [mem 0xe7800000-0xe78fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.1: PCI bridge to [bus 14]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.1:   bridge window [mem 0xfce00000-0xfcefffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.1:   bridge window [mem 0xe7400000-0xe74fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.2: PCI bridge to [bus 15]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.2:   bridge window [mem 0xfca00000-0xfcafffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.2:   bridge window [mem 0xe7000000-0xe70fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3: PCI bridge to [bus 16]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3:   bridge window [mem 0xfc600000-0xfc6fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3:   bridge window [mem 0xe6c00000-0xe6cfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4: PCI bridge to [bus 17]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4:   bridge window [mem 0xfc200000-0xfc2fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4:   bridge window [mem 0xe6800000-0xe68fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5: PCI bridge to [bus 18]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5:   bridge window [mem 0xfbe00000-0xfbefffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5:   bridge window [mem 0xe6400000-0xe64fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6: PCI bridge to [bus 19]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6:   bridge window [mem 0xfba00000-0xfbafffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6:   bridge window [mem 0xe6000000-0xe60fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7: PCI bridge to [bus 1a]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7:   bridge window [mem 0xfb600000-0xfb6fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7:   bridge window [mem 0xe5c00000-0xe5cfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.0: PCI bridge to [bus 1b]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.0:   bridge window [mem 0xfd100000-0xfd1fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.0:   bridge window [mem 0xe7700000-0xe77fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.1: PCI bridge to [bus 1c]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.1:   bridge window [mem 0xfcd00000-0xfcdfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.1:   bridge window [mem 0xe7300000-0xe73fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2: PCI bridge to [bus 1d]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2:   bridge window [mem 0xfc900000-0xfc9fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2:   bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3: PCI bridge to [bus 1e]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3:   bridge window [mem 0xfc500000-0xfc5fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3:   bridge window [mem 0xe6b00000-0xe6bfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4: PCI bridge to [bus 1f]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4:   bridge window [mem 0xfc100000-0xfc1fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4:   bridge window [mem 0xe6700000-0xe67fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5: PCI bridge to [bus 20]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5:   bridge window [mem 0xfbd00000-0xfbdfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5:   bridge window [mem 0xe6300000-0xe63fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6: PCI bridge to [bus 21]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6:   bridge window [mem 0xfb900000-0xfb9fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6:   bridge window [mem 0xe5f00000-0xe5ffffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7: PCI bridge to [bus 22]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7:   bridge window [mem 0xfb500000-0xfb5fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7:   bridge window [mem 0xe5b00000-0xe5bfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 *9 10 11 14 15)
+[Sun Nov 16 11:25:59 2025] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 9 10 *11 14 15)
+[Sun Nov 16 11:25:59 2025] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 7 9 *10 11 14 15)
+[Sun Nov 16 11:25:59 2025] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 *7 9 10 11 14 15)
+[Sun Nov 16 11:25:59 2025] iommu: Default domain type: Translated 
+[Sun Nov 16 11:25:59 2025] SCSI subsystem initialized
+[Sun Nov 16 11:25:59 2025] libata version 3.00 loaded.
+[Sun Nov 16 11:25:59 2025] pci 0000:00:0f.0: vgaarb: setting as boot VGA device
+[Sun Nov 16 11:25:59 2025] pci 0000:00:0f.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[Sun Nov 16 11:25:59 2025] pci 0000:00:0f.0: vgaarb: bridge control possible
+[Sun Nov 16 11:25:59 2025] vgaarb: loaded
+[Sun Nov 16 11:25:59 2025] ACPI: bus type USB registered
+[Sun Nov 16 11:25:59 2025] usbcore: registered new interface driver usbfs
+[Sun Nov 16 11:25:59 2025] usbcore: registered new interface driver hub
+[Sun Nov 16 11:25:59 2025] usbcore: registered new device driver usb
+[Sun Nov 16 11:25:59 2025] pps_core: LinuxPPS API ver. 1 registered
+[Sun Nov 16 11:25:59 2025] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[Sun Nov 16 11:25:59 2025] PTP clock support registered
+[Sun Nov 16 11:25:59 2025] EDAC MC: Ver: 3.0.0
+[Sun Nov 16 11:25:59 2025] PCI: Using ACPI for IRQ routing
+[Sun Nov 16 11:25:59 2025] PCI: pci_cache_line_size set to 64 bytes
+[Sun Nov 16 11:25:59 2025] e820: reserve RAM buffer [mem 0x0009e800-0x0009ffff]
+[Sun Nov 16 11:25:59 2025] e820: reserve RAM buffer [mem 0xbfed0000-0xbfffffff]
+[Sun Nov 16 11:25:59 2025] NetLabel: Initializing
+[Sun Nov 16 11:25:59 2025] NetLabel:  domain hash size = 128
+[Sun Nov 16 11:25:59 2025] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[Sun Nov 16 11:25:59 2025] NetLabel:  unlabeled traffic allowed by default
+[Sun Nov 16 11:25:59 2025] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[Sun Nov 16 11:25:59 2025] hpet0: 16 comparators, 64-bit 14.318180 MHz counter
+[Sun Nov 16 11:25:59 2025] clocksource: Switched to clocksource tsc-early
+[Sun Nov 16 11:25:59 2025] *** VALIDATE bpf ***
+[Sun Nov 16 11:25:59 2025] VFS: Disk quotas dquot_6.6.0
+[Sun Nov 16 11:25:59 2025] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[Sun Nov 16 11:25:59 2025] *** VALIDATE ramfs ***
+[Sun Nov 16 11:25:59 2025] *** VALIDATE hugetlbfs ***
+[Sun Nov 16 11:25:59 2025] AppArmor: AppArmor Filesystem Enabled
+[Sun Nov 16 11:25:59 2025] pnp: PnP ACPI init
+[Sun Nov 16 11:25:59 2025] system 00:00: [io  0x1000-0x103f] has been reserved
+[Sun Nov 16 11:25:59 2025] system 00:00: [io  0x1040-0x104f] has been reserved
+[Sun Nov 16 11:25:59 2025] system 00:00: [io  0x0cf0-0x0cf1] has been reserved
+[Sun Nov 16 11:25:59 2025] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+[Sun Nov 16 11:25:59 2025] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+[Sun Nov 16 11:25:59 2025] pnp 00:02: Plug and Play ACPI device, IDs PNP0303 (active)
+[Sun Nov 16 11:25:59 2025] pnp 00:03: Plug and Play ACPI device, IDs VMW0003 PNP0f13 (active)
+[Sun Nov 16 11:25:59 2025] system 00:04: [mem 0xfed00000-0xfed003ff] has been reserved
+[Sun Nov 16 11:25:59 2025] system 00:04: Plug and Play ACPI device, IDs PNP0103 PNP0c01 (active)
+[Sun Nov 16 11:25:59 2025] pnp 00:05: [dma 2]
+[Sun Nov 16 11:25:59 2025] pnp 00:05: Plug and Play ACPI device, IDs PNP0700 (active)
+[Sun Nov 16 11:25:59 2025] system 00:06: [io  0xfce0-0xfcff] has been reserved
+[Sun Nov 16 11:25:59 2025] system 00:06: [mem 0xf0000000-0xf7ffffff] has been reserved
+[Sun Nov 16 11:25:59 2025] system 00:06: [mem 0xfe800000-0xfe9fffff] has been reserved
+[Sun Nov 16 11:25:59 2025] system 00:06: Plug and Play ACPI device, IDs PNP0c02 (active)
+[Sun Nov 16 11:25:59 2025] pnp: PnP ACPI: found 7 devices
+[Sun Nov 16 11:25:59 2025] thermal_sys: Registered thermal governor 'fair_share'
+[Sun Nov 16 11:25:59 2025] thermal_sys: Registered thermal governor 'bang_bang'
+[Sun Nov 16 11:25:59 2025] thermal_sys: Registered thermal governor 'step_wise'
+[Sun Nov 16 11:25:59 2025] thermal_sys: Registered thermal governor 'user_space'
+[Sun Nov 16 11:25:59 2025] thermal_sys: Registered thermal governor 'power_allocator'
+[Sun Nov 16 11:25:59 2025] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3: bridge window [io  0x1000-0x0fff] to [bus 06] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4: bridge window [io  0x1000-0x0fff] to [bus 07] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5: bridge window [io  0x1000-0x0fff] to [bus 08] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6: bridge window [io  0x1000-0x0fff] to [bus 09] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7: bridge window [io  0x1000-0x0fff] to [bus 0a] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3: bridge window [io  0x1000-0x0fff] to [bus 0e] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4: bridge window [io  0x1000-0x0fff] to [bus 0f] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5: bridge window [io  0x1000-0x0fff] to [bus 10] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6: bridge window [io  0x1000-0x0fff] to [bus 11] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7: bridge window [io  0x1000-0x0fff] to [bus 12] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3: bridge window [io  0x1000-0x0fff] to [bus 16] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4: bridge window [io  0x1000-0x0fff] to [bus 17] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5: bridge window [io  0x1000-0x0fff] to [bus 18] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6: bridge window [io  0x1000-0x0fff] to [bus 19] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7: bridge window [io  0x1000-0x0fff] to [bus 1a] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2: bridge window [io  0x1000-0x0fff] to [bus 1d] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3: bridge window [io  0x1000-0x0fff] to [bus 1e] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4: bridge window [io  0x1000-0x0fff] to [bus 1f] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5: bridge window [io  0x1000-0x0fff] to [bus 20] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6: bridge window [io  0x1000-0x0fff] to [bus 21] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7: bridge window [io  0x1000-0x0fff] to [bus 22] add_size 1000
+[Sun Nov 16 11:25:59 2025] pci 0000:00:0f.0: BAR 6: assigned [mem 0xc0000000-0xc0007fff pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:10.0: BAR 6: assigned [mem 0xc0008000-0xc000bfff pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3: BAR 13: no space for [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:01.0: PCI bridge to [bus 01]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:01.0: BAR 6: assigned [mem 0xfd500000-0xfd50ffff pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:04.0: BAR 6: assigned [mem 0xfd510000-0xfd51ffff pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0: PCI bridge to [bus 02]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [mem 0xfd500000-0xfdffffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:11.0:   bridge window [mem 0xe7b00000-0xe7ffffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.0: PCI bridge to [bus 03]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.0:   bridge window [mem 0xfd400000-0xfd4fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.0:   bridge window [mem 0xe7a00000-0xe7afffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.1: PCI bridge to [bus 04]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.1:   bridge window [mem 0xfd000000-0xfd0fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.1:   bridge window [mem 0xe7600000-0xe76fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.2: PCI bridge to [bus 05]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.2:   bridge window [mem 0xfcc00000-0xfccfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.2:   bridge window [mem 0xe7200000-0xe72fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3: PCI bridge to [bus 06]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3:   bridge window [mem 0xfc800000-0xfc8fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.3:   bridge window [mem 0xe6e00000-0xe6efffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4: PCI bridge to [bus 07]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4:   bridge window [mem 0xfc400000-0xfc4fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.4:   bridge window [mem 0xe6a00000-0xe6afffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5: PCI bridge to [bus 08]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5:   bridge window [mem 0xfc000000-0xfc0fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.5:   bridge window [mem 0xe6600000-0xe66fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6: PCI bridge to [bus 09]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6:   bridge window [mem 0xfbc00000-0xfbcfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.6:   bridge window [mem 0xe6200000-0xe62fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7: PCI bridge to [bus 0a]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7:   bridge window [mem 0xfb800000-0xfb8fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:15.7:   bridge window [mem 0xe5e00000-0xe5efffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.0: PCI bridge to [bus 0b]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.0:   bridge window [mem 0xfd300000-0xfd3fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.0:   bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.1: PCI bridge to [bus 0c]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.1:   bridge window [mem 0xfcf00000-0xfcffffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.1:   bridge window [mem 0xe7500000-0xe75fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.2: PCI bridge to [bus 0d]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.2:   bridge window [mem 0xfcb00000-0xfcbfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.2:   bridge window [mem 0xe7100000-0xe71fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3: PCI bridge to [bus 0e]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3:   bridge window [mem 0xfc700000-0xfc7fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.3:   bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4: PCI bridge to [bus 0f]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4:   bridge window [mem 0xfc300000-0xfc3fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.4:   bridge window [mem 0xe6900000-0xe69fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5: PCI bridge to [bus 10]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5:   bridge window [mem 0xfbf00000-0xfbffffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.5:   bridge window [mem 0xe6500000-0xe65fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6: PCI bridge to [bus 11]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6:   bridge window [mem 0xfbb00000-0xfbbfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.6:   bridge window [mem 0xe6100000-0xe61fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7: PCI bridge to [bus 12]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7:   bridge window [mem 0xfb700000-0xfb7fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:16.7:   bridge window [mem 0xe5d00000-0xe5dfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.0: PCI bridge to [bus 13]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.0:   bridge window [mem 0xe7800000-0xe78fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.1: PCI bridge to [bus 14]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.1:   bridge window [mem 0xfce00000-0xfcefffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.1:   bridge window [mem 0xe7400000-0xe74fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.2: PCI bridge to [bus 15]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.2:   bridge window [mem 0xfca00000-0xfcafffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.2:   bridge window [mem 0xe7000000-0xe70fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3: PCI bridge to [bus 16]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3:   bridge window [mem 0xfc600000-0xfc6fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.3:   bridge window [mem 0xe6c00000-0xe6cfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4: PCI bridge to [bus 17]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4:   bridge window [mem 0xfc200000-0xfc2fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.4:   bridge window [mem 0xe6800000-0xe68fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5: PCI bridge to [bus 18]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5:   bridge window [mem 0xfbe00000-0xfbefffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.5:   bridge window [mem 0xe6400000-0xe64fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6: PCI bridge to [bus 19]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6:   bridge window [mem 0xfba00000-0xfbafffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.6:   bridge window [mem 0xe6000000-0xe60fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7: PCI bridge to [bus 1a]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7:   bridge window [mem 0xfb600000-0xfb6fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:17.7:   bridge window [mem 0xe5c00000-0xe5cfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.0: PCI bridge to [bus 1b]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.0:   bridge window [mem 0xfd100000-0xfd1fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.0:   bridge window [mem 0xe7700000-0xe77fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.1: PCI bridge to [bus 1c]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.1:   bridge window [mem 0xfcd00000-0xfcdfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.1:   bridge window [mem 0xe7300000-0xe73fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2: PCI bridge to [bus 1d]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2:   bridge window [mem 0xfc900000-0xfc9fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.2:   bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3: PCI bridge to [bus 1e]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3:   bridge window [mem 0xfc500000-0xfc5fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.3:   bridge window [mem 0xe6b00000-0xe6bfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4: PCI bridge to [bus 1f]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4:   bridge window [mem 0xfc100000-0xfc1fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.4:   bridge window [mem 0xe6700000-0xe67fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5: PCI bridge to [bus 20]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5:   bridge window [mem 0xfbd00000-0xfbdfffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.5:   bridge window [mem 0xe6300000-0xe63fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6: PCI bridge to [bus 21]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6:   bridge window [mem 0xfb900000-0xfb9fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.6:   bridge window [mem 0xe5f00000-0xe5ffffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7: PCI bridge to [bus 22]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7:   bridge window [mem 0xfb500000-0xfb5fffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:00:18.7:   bridge window [mem 0xe5b00000-0xe5bfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: resource 4 [mem 0x000a0000-0x000bffff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: resource 5 [mem 0x000d0000-0x000d3fff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: resource 6 [mem 0x000d4000-0x000d7fff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: resource 7 [mem 0x000d8000-0x000dbfff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: resource 8 [mem 0xc0000000-0xfebfffff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: resource 9 [io  0x0000-0x0cf7 window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:00: resource 10 [io  0x0d00-0xfeff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:02: resource 0 [io  0x2000-0x3fff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:02: resource 1 [mem 0xfd500000-0xfdffffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:02: resource 2 [mem 0xe7b00000-0xe7ffffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:02: resource 4 [mem 0x000a0000-0x000bffff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:02: resource 5 [mem 0x000d0000-0x000d3fff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:02: resource 6 [mem 0x000d4000-0x000d7fff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:02: resource 7 [mem 0x000d8000-0x000dbfff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:02: resource 8 [mem 0xc0000000-0xfebfffff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:02: resource 9 [io  0x0000-0x0cf7 window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:02: resource 10 [io  0x0d00-0xfeff window]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:03: resource 0 [io  0x4000-0x4fff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:03: resource 1 [mem 0xfd400000-0xfd4fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:03: resource 2 [mem 0xe7a00000-0xe7afffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:04: resource 0 [io  0x8000-0x8fff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:04: resource 1 [mem 0xfd000000-0xfd0fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:04: resource 2 [mem 0xe7600000-0xe76fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:05: resource 0 [io  0xc000-0xcfff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:05: resource 1 [mem 0xfcc00000-0xfccfffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:05: resource 2 [mem 0xe7200000-0xe72fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:06: resource 1 [mem 0xfc800000-0xfc8fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:06: resource 2 [mem 0xe6e00000-0xe6efffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:07: resource 1 [mem 0xfc400000-0xfc4fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:07: resource 2 [mem 0xe6a00000-0xe6afffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:08: resource 1 [mem 0xfc000000-0xfc0fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:08: resource 2 [mem 0xe6600000-0xe66fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:09: resource 1 [mem 0xfbc00000-0xfbcfffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:09: resource 2 [mem 0xe6200000-0xe62fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0a: resource 1 [mem 0xfb800000-0xfb8fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0a: resource 2 [mem 0xe5e00000-0xe5efffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0b: resource 0 [io  0x5000-0x5fff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0b: resource 1 [mem 0xfd300000-0xfd3fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0b: resource 2 [mem 0xe7900000-0xe79fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0c: resource 0 [io  0x9000-0x9fff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0c: resource 1 [mem 0xfcf00000-0xfcffffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0c: resource 2 [mem 0xe7500000-0xe75fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0d: resource 0 [io  0xd000-0xdfff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0d: resource 1 [mem 0xfcb00000-0xfcbfffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0d: resource 2 [mem 0xe7100000-0xe71fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0e: resource 1 [mem 0xfc700000-0xfc7fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0e: resource 2 [mem 0xe6d00000-0xe6dfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0f: resource 1 [mem 0xfc300000-0xfc3fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:0f: resource 2 [mem 0xe6900000-0xe69fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:10: resource 1 [mem 0xfbf00000-0xfbffffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:10: resource 2 [mem 0xe6500000-0xe65fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:11: resource 1 [mem 0xfbb00000-0xfbbfffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:11: resource 2 [mem 0xe6100000-0xe61fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:12: resource 1 [mem 0xfb700000-0xfb7fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:12: resource 2 [mem 0xe5d00000-0xe5dfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:13: resource 0 [io  0x6000-0x6fff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:13: resource 1 [mem 0xfd200000-0xfd2fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:13: resource 2 [mem 0xe7800000-0xe78fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:14: resource 0 [io  0xa000-0xafff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:14: resource 1 [mem 0xfce00000-0xfcefffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:14: resource 2 [mem 0xe7400000-0xe74fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:15: resource 0 [io  0xe000-0xefff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:15: resource 1 [mem 0xfca00000-0xfcafffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:15: resource 2 [mem 0xe7000000-0xe70fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:16: resource 1 [mem 0xfc600000-0xfc6fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:16: resource 2 [mem 0xe6c00000-0xe6cfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:17: resource 1 [mem 0xfc200000-0xfc2fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:17: resource 2 [mem 0xe6800000-0xe68fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:18: resource 1 [mem 0xfbe00000-0xfbefffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:18: resource 2 [mem 0xe6400000-0xe64fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:19: resource 1 [mem 0xfba00000-0xfbafffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:19: resource 2 [mem 0xe6000000-0xe60fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1a: resource 1 [mem 0xfb600000-0xfb6fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1a: resource 2 [mem 0xe5c00000-0xe5cfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1b: resource 0 [io  0x7000-0x7fff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1b: resource 1 [mem 0xfd100000-0xfd1fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1b: resource 2 [mem 0xe7700000-0xe77fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1c: resource 0 [io  0xb000-0xbfff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1c: resource 1 [mem 0xfcd00000-0xfcdfffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1c: resource 2 [mem 0xe7300000-0xe73fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1d: resource 1 [mem 0xfc900000-0xfc9fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1d: resource 2 [mem 0xe6f00000-0xe6ffffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1e: resource 1 [mem 0xfc500000-0xfc5fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1e: resource 2 [mem 0xe6b00000-0xe6bfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1f: resource 1 [mem 0xfc100000-0xfc1fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:1f: resource 2 [mem 0xe6700000-0xe67fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:20: resource 1 [mem 0xfbd00000-0xfbdfffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:20: resource 2 [mem 0xe6300000-0xe63fffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:21: resource 1 [mem 0xfb900000-0xfb9fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:21: resource 2 [mem 0xe5f00000-0xe5ffffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:22: resource 1 [mem 0xfb500000-0xfb5fffff]
+[Sun Nov 16 11:25:59 2025] pci_bus 0000:22: resource 2 [mem 0xe5b00000-0xe5bfffff 64bit pref]
+[Sun Nov 16 11:25:59 2025] NET: Registered protocol family 2
+[Sun Nov 16 11:25:59 2025] IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[Sun Nov 16 11:25:59 2025] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+[Sun Nov 16 11:25:59 2025] TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[Sun Nov 16 11:25:59 2025] TCP bind hash table entries: 32768 (order: 7, 524288 bytes, linear)
+[Sun Nov 16 11:25:59 2025] TCP: Hash tables configured (established 32768 bind 32768)
+[Sun Nov 16 11:25:59 2025] UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[Sun Nov 16 11:25:59 2025] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[Sun Nov 16 11:25:59 2025] NET: Registered protocol family 1
+[Sun Nov 16 11:25:59 2025] NET: Registered protocol family 44
+[Sun Nov 16 11:25:59 2025] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[Sun Nov 16 11:25:59 2025] pci 0000:00:0f.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[Sun Nov 16 11:25:59 2025] pci 0000:02:01.0: CLS mismatch (32 != 64), using 64 bytes
+[Sun Nov 16 11:25:59 2025] Trying to unpack rootfs image as initramfs...
+[Sun Nov 16 11:26:00 2025] Freeing initrd memory: 42284K
+[Sun Nov 16 11:26:00 2025] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[Sun Nov 16 11:26:00 2025] software IO TLB: mapped [mem 0xbbed0000-0xbfed0000] (64MB)
+[Sun Nov 16 11:26:00 2025] check: Scanning for low memory corruption every 60 seconds
+[Sun Nov 16 11:26:00 2025] Initialise system trusted keyrings
+[Sun Nov 16 11:26:00 2025] Key type blacklist registered
+[Sun Nov 16 11:26:00 2025] workingset: timestamp_bits=36 max_order=20 bucket_order=0
+[Sun Nov 16 11:26:00 2025] zbud: loaded
+[Sun Nov 16 11:26:00 2025] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[Sun Nov 16 11:26:00 2025] fuse: init (API version 7.31)
+[Sun Nov 16 11:26:00 2025] *** VALIDATE fuse ***
+[Sun Nov 16 11:26:00 2025] *** VALIDATE fuse ***
+[Sun Nov 16 11:26:00 2025] Platform Keyring initialized
+[Sun Nov 16 11:26:00 2025] Key type asymmetric registered
+[Sun Nov 16 11:26:00 2025] Asymmetric key parser 'x509' registered
+[Sun Nov 16 11:26:00 2025] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)
+[Sun Nov 16 11:26:00 2025] io scheduler mq-deadline registered
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.0: PME: Signaling with IRQ 24
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.0: pciehp: Slot #160 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.1: PME: Signaling with IRQ 25
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.1: pciehp: Slot #161 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.2: PME: Signaling with IRQ 26
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.2: pciehp: Slot #162 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.3: PME: Signaling with IRQ 27
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.3: pciehp: Slot #163 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.4: PME: Signaling with IRQ 28
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.4: pciehp: Slot #164 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.5: PME: Signaling with IRQ 29
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.5: pciehp: Slot #165 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.6: PME: Signaling with IRQ 30
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.6: pciehp: Slot #166 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.7: PME: Signaling with IRQ 31
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:15.7: pciehp: Slot #167 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.0: PME: Signaling with IRQ 32
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.0: pciehp: Slot #192 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.1: PME: Signaling with IRQ 33
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.1: pciehp: Slot #193 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.2: PME: Signaling with IRQ 34
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.2: pciehp: Slot #194 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.3: PME: Signaling with IRQ 35
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.3: pciehp: Slot #195 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.4: PME: Signaling with IRQ 36
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.4: pciehp: Slot #196 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.5: PME: Signaling with IRQ 37
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.5: pciehp: Slot #197 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.6: PME: Signaling with IRQ 38
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.6: pciehp: Slot #198 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.7: PME: Signaling with IRQ 39
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:16.7: pciehp: Slot #199 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.0: PME: Signaling with IRQ 40
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.0: pciehp: Slot #224 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.1: PME: Signaling with IRQ 41
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.1: pciehp: Slot #225 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.2: PME: Signaling with IRQ 42
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.2: pciehp: Slot #226 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.3: PME: Signaling with IRQ 43
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.3: pciehp: Slot #227 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.4: PME: Signaling with IRQ 44
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.4: pciehp: Slot #228 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.5: PME: Signaling with IRQ 45
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.5: pciehp: Slot #229 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.6: PME: Signaling with IRQ 46
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.6: pciehp: Slot #230 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.7: PME: Signaling with IRQ 47
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:17.7: pciehp: Slot #231 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.0: PME: Signaling with IRQ 48
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.0: pciehp: Slot #256 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.1: PME: Signaling with IRQ 49
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.1: pciehp: Slot #257 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.2: PME: Signaling with IRQ 50
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.2: pciehp: Slot #258 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.3: PME: Signaling with IRQ 51
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.3: pciehp: Slot #259 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.4: PME: Signaling with IRQ 52
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.4: pciehp: Slot #260 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.5: PME: Signaling with IRQ 53
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.5: pciehp: Slot #261 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.6: PME: Signaling with IRQ 54
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.6: pciehp: Slot #262 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.7: PME: Signaling with IRQ 55
+[Sun Nov 16 11:26:00 2025] pcieport 0000:00:18.7: pciehp: Slot #263 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ LLActRep+
+[Sun Nov 16 11:26:00 2025] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[Sun Nov 16 11:26:00 2025] intel_idle: does not run on family 6 model 143
+[Sun Nov 16 11:26:00 2025] ACPI: AC Adapter [ACAD] (on-line)
+[Sun Nov 16 11:26:00 2025] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[Sun Nov 16 11:26:00 2025] ACPI: Power Button [PWRF]
+[Sun Nov 16 11:26:00 2025] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[Sun Nov 16 11:26:00 2025] Linux agpgart interface v0.103
+[Sun Nov 16 11:26:00 2025] agpgart-intel 0000:00:00.0: Intel 440BX Chipset
+[Sun Nov 16 11:26:00 2025] agpgart-intel 0000:00:00.0: AGP aperture is 256M @ 0x0
+[Sun Nov 16 11:26:00 2025] loop: module loaded
+[Sun Nov 16 11:26:00 2025] ata_piix 0000:00:07.1: version 2.13
+[Sun Nov 16 11:26:00 2025] scsi host0: ata_piix
+[Sun Nov 16 11:26:00 2025] scsi host1: ata_piix
+[Sun Nov 16 11:26:00 2025] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0x1060 irq 14
+[Sun Nov 16 11:26:00 2025] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0x1068 irq 15
+[Sun Nov 16 11:26:00 2025] tun: Universal TUN/TAP device driver, 1.6
+[Sun Nov 16 11:26:00 2025] PPP generic driver version 2.4.2
+[Sun Nov 16 11:26:00 2025] VFIO - User Level meta-driver version: 0.3
+[Sun Nov 16 11:26:00 2025] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[Sun Nov 16 11:26:00 2025] ehci-pci: EHCI PCI platform driver
+[Sun Nov 16 11:26:00 2025] ehci-pci 0000:02:03.0: EHCI Host Controller
+[Sun Nov 16 11:26:00 2025] ehci-pci 0000:02:03.0: new USB bus registered, assigned bus number 1
+[Sun Nov 16 11:26:00 2025] ehci-pci 0000:02:03.0: cache line size of 64 is not supported
+[Sun Nov 16 11:26:00 2025] ehci-pci 0000:02:03.0: irq 17, io mem 0xfd5ef000
+[Sun Nov 16 11:26:00 2025] ehci-pci 0000:02:03.0: USB 2.0 started, EHCI 1.00
+[Sun Nov 16 11:26:00 2025] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+[Sun Nov 16 11:26:00 2025] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Sun Nov 16 11:26:00 2025] usb usb1: Product: EHCI Host Controller
+[Sun Nov 16 11:26:00 2025] usb usb1: Manufacturer: Linux 5.4.0-150-generic ehci_hcd
+[Sun Nov 16 11:26:00 2025] usb usb1: SerialNumber: 0000:02:03.0
+[Sun Nov 16 11:26:00 2025] hub 1-0:1.0: USB hub found
+[Sun Nov 16 11:26:00 2025] hub 1-0:1.0: 6 ports detected
+[Sun Nov 16 11:26:00 2025] ehci-platform: EHCI generic platform driver
+[Sun Nov 16 11:26:00 2025] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[Sun Nov 16 11:26:00 2025] ohci-pci: OHCI PCI platform driver
+[Sun Nov 16 11:26:00 2025] ohci-platform: OHCI generic platform driver
+[Sun Nov 16 11:26:00 2025] uhci_hcd: USB Universal Host Controller Interface driver
+[Sun Nov 16 11:26:00 2025] uhci_hcd 0000:02:00.0: UHCI Host Controller
+[Sun Nov 16 11:26:00 2025] uhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 2
+[Sun Nov 16 11:26:00 2025] uhci_hcd 0000:02:00.0: detected 2 ports
+[Sun Nov 16 11:26:00 2025] uhci_hcd 0000:02:00.0: irq 18, io base 0x00002080
+[Sun Nov 16 11:26:00 2025] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.04
+[Sun Nov 16 11:26:00 2025] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[Sun Nov 16 11:26:00 2025] usb usb2: Product: UHCI Host Controller
+[Sun Nov 16 11:26:00 2025] usb usb2: Manufacturer: Linux 5.4.0-150-generic uhci_hcd
+[Sun Nov 16 11:26:00 2025] usb usb2: SerialNumber: 0000:02:00.0
+[Sun Nov 16 11:26:00 2025] hub 2-0:1.0: USB hub found
+[Sun Nov 16 11:26:00 2025] hub 2-0:1.0: 2 ports detected
+[Sun Nov 16 11:26:00 2025] i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f13:MOUS] at 0x60,0x64 irq 1,12
+[Sun Nov 16 11:26:00 2025] serio: i8042 KBD port at 0x60,0x64 irq 1
+[Sun Nov 16 11:26:00 2025] serio: i8042 AUX port at 0x60,0x64 irq 12
+[Sun Nov 16 11:26:00 2025] mousedev: PS/2 mouse device common for all mice
+[Sun Nov 16 11:26:00 2025] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+[Sun Nov 16 11:26:00 2025] rtc_cmos 00:01: registered as rtc0
+[Sun Nov 16 11:26:00 2025] rtc_cmos 00:01: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
+[Sun Nov 16 11:26:00 2025] i2c /dev entries driver
+[Sun Nov 16 11:26:00 2025] device-mapper: uevent: version 1.0.3
+[Sun Nov 16 11:26:00 2025] device-mapper: ioctl: 4.41.0-ioctl (2019-09-16) initialised: dm-devel@redhat.com
+[Sun Nov 16 11:26:00 2025] platform eisa.0: Probing EISA bus 0
+[Sun Nov 16 11:26:00 2025] platform eisa.0: EISA: Cannot allocate resource for mainboard
+[Sun Nov 16 11:26:00 2025] platform eisa.0: Cannot allocate resource for EISA slot 1
+[Sun Nov 16 11:26:00 2025] platform eisa.0: Cannot allocate resource for EISA slot 2
+[Sun Nov 16 11:26:00 2025] platform eisa.0: Cannot allocate resource for EISA slot 3
+[Sun Nov 16 11:26:00 2025] platform eisa.0: Cannot allocate resource for EISA slot 4
+[Sun Nov 16 11:26:00 2025] platform eisa.0: Cannot allocate resource for EISA slot 5
+[Sun Nov 16 11:26:00 2025] platform eisa.0: Cannot allocate resource for EISA slot 6
+[Sun Nov 16 11:26:00 2025] platform eisa.0: Cannot allocate resource for EISA slot 7
+[Sun Nov 16 11:26:00 2025] platform eisa.0: Cannot allocate resource for EISA slot 8
+[Sun Nov 16 11:26:00 2025] platform eisa.0: EISA: Detected 0 cards
+[Sun Nov 16 11:26:00 2025] intel_pstate: CPU model not supported
+[Sun Nov 16 11:26:00 2025] ledtrig-cpu: registered to indicate activity on CPUs
+[Sun Nov 16 11:26:00 2025] drop_monitor: Initializing network drop monitor service
+[Sun Nov 16 11:26:00 2025] NET: Registered protocol family 10
+[Sun Nov 16 11:26:00 2025] Segment Routing with IPv6
+[Sun Nov 16 11:26:00 2025] NET: Registered protocol family 17
+[Sun Nov 16 11:26:00 2025] Key type dns_resolver registered
+[Sun Nov 16 11:26:00 2025] RAS: Correctable Errors collector initialized.
+[Sun Nov 16 11:26:00 2025] IPI shorthand broadcast: enabled
+[Sun Nov 16 11:26:00 2025] sched_clock: Marking stable (1457766673, 5729546)->(1621429953, -157933734)
+[Sun Nov 16 11:26:00 2025] registered taskstats version 1
+[Sun Nov 16 11:26:00 2025] Loading compiled-in X.509 certificates
+[Sun Nov 16 11:26:00 2025] Loaded X.509 cert 'Build time autogenerated kernel key: 1b6f3dadb8f129606217e3a0685f6c1e8ea0c66e'
+[Sun Nov 16 11:26:00 2025] Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+[Sun Nov 16 11:26:00 2025] Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+[Sun Nov 16 11:26:00 2025] blacklist: Loading compiled-in revocation X.509 certificates
+[Sun Nov 16 11:26:00 2025] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+[Sun Nov 16 11:26:00 2025] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+[Sun Nov 16 11:26:00 2025] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+[Sun Nov 16 11:26:00 2025] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+[Sun Nov 16 11:26:00 2025] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+[Sun Nov 16 11:26:00 2025] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+[Sun Nov 16 11:26:00 2025] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+[Sun Nov 16 11:26:00 2025] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+[Sun Nov 16 11:26:00 2025] zswap: loaded using pool lzo/zbud
+[Sun Nov 16 11:26:00 2025] Key type ._fscrypt registered
+[Sun Nov 16 11:26:00 2025] Key type .fscrypt registered
+[Sun Nov 16 11:26:00 2025] Key type big_key registered
+[Sun Nov 16 11:26:00 2025] Key type encrypted registered
+[Sun Nov 16 11:26:00 2025] AppArmor: AppArmor sha1 policy hashing enabled
+[Sun Nov 16 11:26:00 2025] ima: No TPM chip found, activating TPM-bypass!
+[Sun Nov 16 11:26:00 2025] ima: Allocated hash algorithm: sha1
+[Sun Nov 16 11:26:00 2025] ima: No architecture policies found
+[Sun Nov 16 11:26:00 2025] evm: Initialising EVM extended attributes:
+[Sun Nov 16 11:26:00 2025] evm: security.selinux
+[Sun Nov 16 11:26:00 2025] evm: security.SMACK64
+[Sun Nov 16 11:26:00 2025] evm: security.SMACK64EXEC
+[Sun Nov 16 11:26:00 2025] evm: security.SMACK64TRANSMUTE
+[Sun Nov 16 11:26:00 2025] evm: security.SMACK64MMAP
+[Sun Nov 16 11:26:00 2025] evm: security.apparmor
+[Sun Nov 16 11:26:00 2025] evm: security.ima
+[Sun Nov 16 11:26:00 2025] evm: security.capability
+[Sun Nov 16 11:26:00 2025] evm: HMAC attrs: 0x1
+[Sun Nov 16 11:26:00 2025] PM:   Magic number: 1:94:435
+[Sun Nov 16 11:26:00 2025] acpi PNP0C80:a5: hash matches
+[Sun Nov 16 11:26:00 2025] rtc_cmos 00:01: setting system clock to 2025-11-16T14:26:00 UTC (1763303160)
+[Sun Nov 16 11:26:00 2025] Freeing unused decrypted memory: 2040K
+[Sun Nov 16 11:26:00 2025] Freeing unused kernel image memory: 2748K
+[Sun Nov 16 11:26:00 2025] Write protecting the kernel read-only data: 26624k
+[Sun Nov 16 11:26:00 2025] Freeing unused kernel image memory: 2036K
+[Sun Nov 16 11:26:00 2025] Freeing unused kernel image memory: 768K
+[Sun Nov 16 11:26:00 2025] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[Sun Nov 16 11:26:00 2025] Run /init as init process
+[Sun Nov 16 11:26:00 2025] usb 2-1: new full-speed USB device number 2 using uhci_hcd
+[Sun Nov 16 11:26:00 2025] piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+[Sun Nov 16 11:26:00 2025] usb 2-1: New USB device found, idVendor=0e0f, idProduct=0003, bcdDevice= 1.03
+[Sun Nov 16 11:26:00 2025] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Sun Nov 16 11:26:00 2025] usb 2-1: Product: VMware Virtual USB Mouse
+[Sun Nov 16 11:26:00 2025] usb 2-1: Manufacturer: VMware
+[Sun Nov 16 11:26:00 2025] Floppy drive(s): fd0 is 1.44M
+[Sun Nov 16 11:26:00 2025] FDC 0 is a post-1991 82077
+[Sun Nov 16 11:26:00 2025] usb 2-2: new full-speed USB device number 3 using uhci_hcd
+[Sun Nov 16 11:26:01 2025] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+[Sun Nov 16 11:26:01 2025] Fusion MPT base driver 3.04.20
+[Sun Nov 16 11:26:01 2025] Copyright (c) 1999-2008 LSI Corporation
+[Sun Nov 16 11:26:01 2025] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[Sun Nov 16 11:26:01 2025] Fusion MPT SPI Host driver 3.04.20
+[Sun Nov 16 11:26:01 2025] ahci 0000:02:04.0: version 3.0
+[Sun Nov 16 11:26:01 2025] ahci 0000:02:04.0: AHCI 0001.0300 32 slots 30 ports 6 Gbps 0x3fffffff impl SATA mode
+[Sun Nov 16 11:26:01 2025] ahci 0000:02:04.0: flags: 64bit ncq clo only 
+[Sun Nov 16 11:26:01 2025] scsi host2: ahci
+[Sun Nov 16 11:26:01 2025] scsi host3: ahci
+[Sun Nov 16 11:26:01 2025] scsi host4: ahci
+[Sun Nov 16 11:26:01 2025] scsi host5: ahci
+[Sun Nov 16 11:26:01 2025] scsi host6: ahci
+[Sun Nov 16 11:26:01 2025] scsi host7: ahci
+[Sun Nov 16 11:26:01 2025] scsi host8: ahci
+[Sun Nov 16 11:26:01 2025] scsi host9: ahci
+[Sun Nov 16 11:26:01 2025] scsi host10: ahci
+[Sun Nov 16 11:26:01 2025] scsi host11: ahci
+[Sun Nov 16 11:26:01 2025] scsi host12: ahci
+[Sun Nov 16 11:26:01 2025] scsi host13: ahci
+[Sun Nov 16 11:26:01 2025] scsi host14: ahci
+[Sun Nov 16 11:26:01 2025] scsi host15: ahci
+[Sun Nov 16 11:26:01 2025] scsi host16: ahci
+[Sun Nov 16 11:26:01 2025] scsi host17: ahci
+[Sun Nov 16 11:26:01 2025] scsi host18: ahci
+[Sun Nov 16 11:26:01 2025] scsi host19: ahci
+[Sun Nov 16 11:26:01 2025] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+[Sun Nov 16 11:26:01 2025] mptbase: ioc0: Initiating bringup
+[Sun Nov 16 11:26:01 2025] scsi host20: ahci
+[Sun Nov 16 11:26:01 2025] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+[Sun Nov 16 11:26:01 2025] scsi host21: ahci
+[Sun Nov 16 11:26:01 2025] scsi host22: ahci
+[Sun Nov 16 11:26:01 2025] scsi host23: ahci
+[Sun Nov 16 11:26:01 2025] scsi host24: ahci
+[Sun Nov 16 11:26:01 2025] scsi host25: ahci
+[Sun Nov 16 11:26:01 2025] scsi host26: ahci
+[Sun Nov 16 11:26:01 2025] scsi host27: ahci
+[Sun Nov 16 11:26:01 2025] scsi host28: ahci
+[Sun Nov 16 11:26:01 2025] scsi host29: ahci
+[Sun Nov 16 11:26:01 2025] scsi host30: ahci
+[Sun Nov 16 11:26:01 2025] scsi host31: ahci
+[Sun Nov 16 11:26:01 2025] ata3: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee100 irq 56
+[Sun Nov 16 11:26:01 2025] ata4: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee180 irq 56
+[Sun Nov 16 11:26:01 2025] ata5: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee200 irq 56
+[Sun Nov 16 11:26:01 2025] ata6: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee280 irq 56
+[Sun Nov 16 11:26:01 2025] ata7: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee300 irq 56
+[Sun Nov 16 11:26:01 2025] ata8: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee380 irq 56
+[Sun Nov 16 11:26:01 2025] ata9: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee400 irq 56
+[Sun Nov 16 11:26:01 2025] ata10: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee480 irq 56
+[Sun Nov 16 11:26:01 2025] ata11: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee500 irq 56
+[Sun Nov 16 11:26:01 2025] ata12: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee580 irq 56
+[Sun Nov 16 11:26:01 2025] ata13: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee600 irq 56
+[Sun Nov 16 11:26:01 2025] ata14: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee680 irq 56
+[Sun Nov 16 11:26:01 2025] ata15: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee700 irq 56
+[Sun Nov 16 11:26:01 2025] ata16: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee780 irq 56
+[Sun Nov 16 11:26:01 2025] ata17: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee800 irq 56
+[Sun Nov 16 11:26:01 2025] ata18: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee880 irq 56
+[Sun Nov 16 11:26:01 2025] ata19: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee900 irq 56
+[Sun Nov 16 11:26:01 2025] ata20: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5ee980 irq 56
+[Sun Nov 16 11:26:01 2025] ata21: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eea00 irq 56
+[Sun Nov 16 11:26:01 2025] ata22: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eea80 irq 56
+[Sun Nov 16 11:26:01 2025] ata23: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eeb00 irq 56
+[Sun Nov 16 11:26:01 2025] ata24: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eeb80 irq 56
+[Sun Nov 16 11:26:01 2025] ata25: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eec00 irq 56
+[Sun Nov 16 11:26:01 2025] ata26: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eec80 irq 56
+[Sun Nov 16 11:26:01 2025] ata27: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eed00 irq 56
+[Sun Nov 16 11:26:01 2025] ata28: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eed80 irq 56
+[Sun Nov 16 11:26:01 2025] ata29: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eee00 irq 56
+[Sun Nov 16 11:26:01 2025] ata30: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eee80 irq 56
+[Sun Nov 16 11:26:01 2025] ata31: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eef00 irq 56
+[Sun Nov 16 11:26:01 2025] ata32: SATA max UDMA/133 abar m4096@0xfd5ee000 port 0xfd5eef80 irq 56
+[Sun Nov 16 11:26:01 2025] usb 2-2: New USB device found, idVendor=0e0f, idProduct=0002, bcdDevice= 1.00
+[Sun Nov 16 11:26:01 2025] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Sun Nov 16 11:26:01 2025] usb 2-2: Product: VMware Virtual USB Hub
+[Sun Nov 16 11:26:01 2025] usb 2-2: Manufacturer: VMware, Inc.
+[Sun Nov 16 11:26:01 2025] hub 2-2:1.0: USB hub found
+[Sun Nov 16 11:26:01 2025] hub 2-2:1.0: 7 ports detected
+[Sun Nov 16 11:26:01 2025] hidraw: raw HID events driver (C) Jiri Kosina
+[Sun Nov 16 11:26:01 2025] tsc: Refined TSC clocksource calibration: 3000.013 MHz
+[Sun Nov 16 11:26:01 2025] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2b3e51ef8f1, max_idle_ns: 440795347337 ns
+[Sun Nov 16 11:26:01 2025] clocksource: Switched to clocksource tsc
+[Sun Nov 16 11:26:01 2025] ioc0: LSI53C1030 B0: Capabilities={Initiator}
+[Sun Nov 16 11:26:01 2025] ata6: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata3.00: ATAPI: VMware Virtual SATA CDRW Drive, 00000001, max UDMA/33
+[Sun Nov 16 11:26:01 2025] ata3.00: configured for UDMA/33
+[Sun Nov 16 11:26:01 2025] ata5: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata4: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata4.00: ATAPI: VMware Virtual SATA CDRW Drive, 00000001, max UDMA/33
+[Sun Nov 16 11:26:01 2025] ata4.00: configured for UDMA/33
+[Sun Nov 16 11:26:01 2025] scsi 2:0:0:0: CD-ROM            NECVMWar VMware SATA CD00 1.00 PQ: 0 ANSI: 5
+[Sun Nov 16 11:26:01 2025] ata12: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata20: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata17: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata26: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata19: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata23: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata29: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata14: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata30: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata11: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata7: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata28: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata8: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata13: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata15: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata16: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata24: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata18: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata21: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata22: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata31: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata27: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata25: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata32: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Sun Nov 16 11:26:01 2025] scsi host32: ioc0: LSI53C1030 B0, FwRev=01032920h, Ports=1, MaxQ=128, IRQ=17
+[Sun Nov 16 11:26:01 2025] sr 2:0:0:0: [sr0] scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+[Sun Nov 16 11:26:01 2025] cdrom: Uniform CD-ROM driver Revision: 3.20
+[Sun Nov 16 11:26:01 2025] sr 2:0:0:0: Attached scsi CD-ROM sr0
+[Sun Nov 16 11:26:01 2025] sr 2:0:0:0: Attached scsi generic sg0 type 5
+[Sun Nov 16 11:26:01 2025] scsi 3:0:0:0: CD-ROM            NECVMWar VMware SATA CD01 1.00 PQ: 0 ANSI: 5
+[Sun Nov 16 11:26:01 2025] e1000 0000:02:01.0 eth0: (PCI:66MHz:32-bit) 00:0c:29:34:06:c3
+[Sun Nov 16 11:26:01 2025] e1000 0000:02:01.0 eth0: Intel(R) PRO/1000 Network Connection
+[Sun Nov 16 11:26:01 2025] sr 3:0:0:0: [sr1] scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+[Sun Nov 16 11:26:01 2025] sr 3:0:0:0: Attached scsi CD-ROM sr1
+[Sun Nov 16 11:26:01 2025] sr 3:0:0:0: Attached scsi generic sg1 type 5
+[Sun Nov 16 11:26:01 2025] usbcore: registered new interface driver usbhid
+[Sun Nov 16 11:26:01 2025] usbhid: USB HID core driver
+[Sun Nov 16 11:26:01 2025] e1000 0000:02:01.0 ens33: renamed from eth0
+[Sun Nov 16 11:26:01 2025] input: VMware VMware Virtual USB Mouse as /devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.0/0003:0E0F:0003.0001/input/input5
+[Sun Nov 16 11:26:01 2025] hid-generic 0003:0E0F:0003.0001: input,hidraw0: USB HID v1.10 Mouse [VMware VMware Virtual USB Mouse] on usb-0000:02:00.0-1/input0
+[Sun Nov 16 11:26:01 2025] scsi 32:0:0:0: Direct-Access     VMware,  VMware Virtual S 1.0  PQ: 0 ANSI: 2
+[Sun Nov 16 11:26:01 2025] scsi target32:0:0: Beginning Domain Validation
+[Sun Nov 16 11:26:01 2025] scsi target32:0:0: Domain Validation skipping write tests
+[Sun Nov 16 11:26:01 2025] scsi target32:0:0: Ending Domain Validation
+[Sun Nov 16 11:26:01 2025] scsi target32:0:0: FAST-40 WIDE SCSI 80.0 MB/s ST (25 ns, offset 127)
+[Sun Nov 16 11:26:01 2025] sd 32:0:0:0: [sda] 62914560 512-byte logical blocks: (32.2 GB/30.0 GiB)
+[Sun Nov 16 11:26:01 2025] sd 32:0:0:0: [sda] Write Protect is off
+[Sun Nov 16 11:26:01 2025] sd 32:0:0:0: [sda] Mode Sense: 61 00 00 00
+[Sun Nov 16 11:26:01 2025] sd 32:0:0:0: [sda] Cache data unavailable
+[Sun Nov 16 11:26:01 2025] sd 32:0:0:0: [sda] Assuming drive cache: write through
+[Sun Nov 16 11:26:01 2025] sd 32:0:0:0: Attached scsi generic sg2 type 0
+[Sun Nov 16 11:26:01 2025]  sda: sda1
+[Sun Nov 16 11:26:01 2025] sd 32:0:0:0: [sda] Attached SCSI disk
+[Sun Nov 16 11:26:01 2025] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+[Sun Nov 16 11:26:01 2025] systemd[1]: systemd 237 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+[Sun Nov 16 11:26:01 2025] systemd[1]: Detected virtualization vmware.
+[Sun Nov 16 11:26:01 2025] systemd[1]: Detected architecture x86-64.
+[Sun Nov 16 11:26:01 2025] systemd[1]: Set hostname to <ubuntu>.
+[Sun Nov 16 11:26:01 2025] systemd[1]: Initializing machine ID from random generator.
+[Sun Nov 16 11:26:01 2025] systemd[1]: Installed transient /etc/machine-id file.
+[Sun Nov 16 11:26:02 2025] systemd[1]: Reached target Remote File Systems.
+[Sun Nov 16 11:26:02 2025] systemd[1]: Reached target User and Group Name Lookups.
+[Sun Nov 16 11:26:02 2025] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[Sun Nov 16 11:26:02 2025] systemd[1]: Created slice User and Session Slice.
+[Sun Nov 16 11:26:02 2025] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+[Sun Nov 16 11:26:02 2025] lp: driver loaded but no devices found
+[Sun Nov 16 11:26:02 2025] ppdev: user-space parallel port driver
+[Sun Nov 16 11:26:02 2025] Adding 1459804k swap on /swapfile.  Priority:-2 extents:5 across:1492572k FS
+[Sun Nov 16 11:26:02 2025] systemd-journald[368]: Received request to flush runtime journal from PID 1
+[Sun Nov 16 11:26:02 2025] audit: type=1400 audit(1763303162.306:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=469 comm="apparmor_parser"
+[Sun Nov 16 11:26:02 2025] audit: type=1400 audit(1763303162.306:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=469 comm="apparmor_parser"
+[Sun Nov 16 11:26:02 2025] audit: type=1400 audit(1763303162.306:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=469 comm="apparmor_parser"
+[Sun Nov 16 11:26:02 2025] audit: type=1400 audit(1763303162.306:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=469 comm="apparmor_parser"
+[Sun Nov 16 11:26:02 2025] audit: type=1400 audit(1763303162.314:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=472 comm="apparmor_parser"
+[Sun Nov 16 11:26:02 2025] audit: type=1400 audit(1763303162.314:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=472 comm="apparmor_parser"
+[Sun Nov 16 11:26:02 2025] audit: type=1400 audit(1763303162.314:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=472 comm="apparmor_parser"
+[Sun Nov 16 11:26:02 2025] audit: type=1400 audit(1763303162.322:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince" pid=470 comm="apparmor_parser"
+[Sun Nov 16 11:26:02 2025] audit: type=1400 audit(1763303162.322:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince//sanitized_helper" pid=470 comm="apparmor_parser"
+[Sun Nov 16 11:26:02 2025] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+[Sun Nov 16 11:26:02 2025] IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+[Sun Nov 16 11:26:03 2025] vmw_vmci 0000:00:07.7: Found VMCI PCI device at 0x11080, irq 16
+[Sun Nov 16 11:26:03 2025] vmw_vmci 0000:00:07.7: Using capabilities 0x1c
+[Sun Nov 16 11:26:03 2025] Guest personality initialized and is active
+[Sun Nov 16 11:26:03 2025] VMCI host device registered (name=vmci, major=10, minor=59)
+[Sun Nov 16 11:26:03 2025] Initialized host personality
+[Sun Nov 16 11:26:03 2025] [drm] DMA map mode: Caching DMA mappings.
+[Sun Nov 16 11:26:03 2025] [drm] Capabilities:
+[Sun Nov 16 11:26:03 2025] [drm]   Rect copy.
+[Sun Nov 16 11:26:03 2025] [drm]   Cursor.
+[Sun Nov 16 11:26:03 2025] [drm]   Cursor bypass.
+[Sun Nov 16 11:26:03 2025] [drm]   Cursor bypass 2.
+[Sun Nov 16 11:26:03 2025] [drm]   8bit emulation.
+[Sun Nov 16 11:26:03 2025] [drm]   Alpha cursor.
+[Sun Nov 16 11:26:03 2025] [drm]   3D.
+[Sun Nov 16 11:26:03 2025] [drm]   Extended Fifo.
+[Sun Nov 16 11:26:03 2025] [drm]   Multimon.
+[Sun Nov 16 11:26:03 2025] [drm]   Pitchlock.
+[Sun Nov 16 11:26:03 2025] [drm]   Irq mask.
+[Sun Nov 16 11:26:03 2025] [drm]   Display Topology.
+[Sun Nov 16 11:26:03 2025] [drm]   GMR.
+[Sun Nov 16 11:26:03 2025] [drm]   Traces.
+[Sun Nov 16 11:26:03 2025] [drm]   GMR2.
+[Sun Nov 16 11:26:03 2025] [drm]   Screen Object 2.
+[Sun Nov 16 11:26:03 2025] [drm]   Command Buffers.
+[Sun Nov 16 11:26:03 2025] [drm]   Command Buffers 2.
+[Sun Nov 16 11:26:03 2025] [drm]   Guest Backed Resources.
+[Sun Nov 16 11:26:03 2025] [drm]   DX Features.
+[Sun Nov 16 11:26:03 2025] [drm]   HP Command Queue.
+[Sun Nov 16 11:26:03 2025] [drm] Capabilities2:
+[Sun Nov 16 11:26:03 2025] [drm]   Grow oTable.
+[Sun Nov 16 11:26:03 2025] [drm]   IntraSurface copy.
+[Sun Nov 16 11:26:03 2025] [drm] Max GMR ids is 64
+[Sun Nov 16 11:26:03 2025] [drm] Max number of GMR pages is 65536
+[Sun Nov 16 11:26:03 2025] [drm] Max dedicated hypervisor surface memory is 0 kiB
+[Sun Nov 16 11:26:03 2025] [drm] Maximum display memory size is 262144 kiB
+[Sun Nov 16 11:26:03 2025] [drm] VRAM at 0xe8000000 size is 131072 kiB
+[Sun Nov 16 11:26:03 2025] [drm] MMIO at 0xfe000000 size is 256 kiB
+[Sun Nov 16 11:26:03 2025] [TTM] Zone  kernel: Available graphics memory: 1997356 KiB
+[Sun Nov 16 11:26:03 2025] [TTM] Initializing pool allocator
+[Sun Nov 16 11:26:03 2025] [TTM] Initializing DMA pool allocator
+[Sun Nov 16 11:26:03 2025] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[Sun Nov 16 11:26:03 2025] [drm] No driver support for vblank timestamp query.
+[Sun Nov 16 11:26:03 2025] [drm] Screen Target Display device initialized
+[Sun Nov 16 11:26:03 2025] [drm] width 640
+[Sun Nov 16 11:26:03 2025] [drm] height 480
+[Sun Nov 16 11:26:03 2025] [drm] bpp 32
+[Sun Nov 16 11:26:03 2025] [drm] Fifo max 0x00040000 min 0x00001000 cap 0x0000077f
+[Sun Nov 16 11:26:03 2025] cryptd: max_cpu_qlen set to 1000
+[Sun Nov 16 11:26:03 2025] AVX2 version of gcm_enc/dec engaged.
+[Sun Nov 16 11:26:03 2025] AES CTR mode by8 optimization enabled
+[Sun Nov 16 11:26:03 2025] [drm] Using command buffers with DMA pool.
+[Sun Nov 16 11:26:03 2025] [drm] DX: yes.
+[Sun Nov 16 11:26:03 2025] [drm] Atomic: yes.
+[Sun Nov 16 11:26:03 2025] [drm] SM4_1: yes.
+[Sun Nov 16 11:26:03 2025] fbcon: svgadrmfb (fb0) is primary device
+[Sun Nov 16 11:26:03 2025] Console: switching to colour frame buffer device 100x37
+[Sun Nov 16 11:26:03 2025] [drm] Initialized vmwgfx 2.15.0 20180704 for 0000:00:0f.0 on minor 0
+[Sun Nov 16 11:26:11 2025] kauditd_printk_skb: 11 callbacks suppressed
+[Sun Nov 16 11:26:11 2025] audit: type=1400 audit(1763303171.414:22): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine" pid=1611 comm="apparmor_parser"
+[Sun Nov 16 11:26:11 2025] audit: type=1400 audit(1763303171.414:23): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1611 comm="apparmor_parser"
+[Sun Nov 16 11:26:15 2025] NET: Registered protocol family 40
+[Sun Nov 16 11:26:24 2025] audit: type=1400 audit(1763321184.460:24): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine" pid=3444 comm="apparmor_parser"
+[Sun Nov 16 11:26:24 2025] audit: type=1400 audit(1763321184.476:25): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=3444 comm="apparmor_parser"
+[Sun Nov 16 11:26:30 2025] audit: type=1400 audit(1763321190.844:26): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=4126 comm="apparmor_parser"
+[Sun Nov 16 11:26:30 2025] audit: type=1400 audit(1763321190.892:27): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=4127 comm="apparmor_parser"
+[Sun Nov 16 11:26:30 2025] audit: type=1400 audit(1763321190.908:28): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.gnome-calculator.hook.configure" pid=4128 comm="apparmor_parser"
+[Sun Nov 16 11:26:31 2025] audit: type=1400 audit(1763321192.244:29): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine" pid=4213 comm="apparmor_parser"
+[Sun Nov 16 11:26:31 2025] audit: type=1400 audit(1763321192.244:30): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=4213 comm="apparmor_parser"
+[Sun Nov 16 11:26:32 2025] audit: type=1400 audit(1763321192.560:31): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=4216 comm="apparmor_parser"
+[Sun Nov 16 11:26:32 2025] audit: type=1400 audit(1763321192.596:32): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=4215 comm="apparmor_parser"
+[Sun Nov 16 11:26:32 2025] audit: type=1400 audit(1763321192.660:33): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.hook.configure" pid=4217 comm="apparmor_parser"
+[Sun Nov 16 11:26:36 2025] rfkill: input handler disabled
+[Sun Nov 16 11:26:47 2025] audit: type=1400 audit(1763321207.828:34): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.gnome-characters" pid=4824 comm="apparmor_parser"
+[Sun Nov 16 11:26:47 2025] audit: type=1400 audit(1763321207.840:35): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=4825 comm="apparmor_parser"
+[Sun Nov 16 11:26:47 2025] audit: type=1400 audit(1763321207.920:36): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.gnome-characters.hook.configure" pid=4826 comm="apparmor_parser"
+[Sun Nov 16 11:26:49 2025] audit: type=1400 audit(1763321209.572:37): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine" pid=4926 comm="apparmor_parser"
+[Sun Nov 16 11:26:49 2025] audit: type=1400 audit(1763321209.572:38): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=4926 comm="apparmor_parser"
+[Sun Nov 16 11:26:49 2025] audit: type=1400 audit(1763321209.972:39): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=4929 comm="apparmor_parser"
+[Sun Nov 16 11:26:49 2025] audit: type=1400 audit(1763321210.000:40): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-characters" pid=4928 comm="apparmor_parser"
+[Sun Nov 16 11:26:49 2025] audit: type=1400 audit(1763321210.088:41): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-characters.hook.configure" pid=4930 comm="apparmor_parser"
+[Sun Nov 16 11:27:14 2025] audit: type=1400 audit(1763321234.988:42): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.gnome-logs" pid=5275 comm="apparmor_parser"
+[Sun Nov 16 11:27:14 2025] audit: type=1400 audit(1763321235.040:43): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.gnome-logs.gnome-logs" pid=5276 comm="apparmor_parser"
+[Sun Nov 16 11:27:14 2025] audit: type=1400 audit(1763321235.056:44): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.gnome-logs.hook.configure" pid=5277 comm="apparmor_parser"
+[Sun Nov 16 11:27:16 2025] audit: type=1400 audit(1763321236.544:45): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine" pid=5380 comm="apparmor_parser"
+[Sun Nov 16 11:27:16 2025] audit: type=1400 audit(1763321236.544:46): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=5380 comm="apparmor_parser"
+[Sun Nov 16 11:27:16 2025] audit: type=1400 audit(1763321236.820:47): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-logs" pid=5382 comm="apparmor_parser"
+[Sun Nov 16 11:27:16 2025] audit: type=1400 audit(1763321236.848:48): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-logs.gnome-logs" pid=5383 comm="apparmor_parser"
+[Sun Nov 16 11:27:16 2025] audit: type=1400 audit(1763321236.908:49): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-logs.hook.configure" pid=5384 comm="apparmor_parser"
+[Sun Nov 16 11:27:42 2025] audit: type=1400 audit(1763321262.468:50): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.gnome-system-monitor" pid=5587 comm="apparmor_parser"
+[Sun Nov 16 11:27:42 2025] audit: type=1400 audit(1763321262.580:51): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.gnome-system-monitor.gnome-system-monitor" pid=5588 comm="apparmor_parser"
+[Sun Nov 16 11:27:42 2025] audit: type=1400 audit(1763321262.612:52): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.gnome-system-monitor.hook.configure" pid=5590 comm="apparmor_parser"
+[Sun Nov 16 11:27:44 2025] audit: type=1400 audit(1763321264.980:53): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine" pid=5755 comm="apparmor_parser"
+[Sun Nov 16 11:27:44 2025] audit: type=1400 audit(1763321264.980:54): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/12883/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=5755 comm="apparmor_parser"
+[Sun Nov 16 11:27:46 2025] audit: type=1400 audit(1763321266.368:55): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-system-monitor" pid=5757 comm="apparmor_parser"
+[Sun Nov 16 11:27:46 2025] audit: type=1400 audit(1763321266.584:56): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-system-monitor.gnome-system-monitor" pid=5758 comm="apparmor_parser"
+[Sun Nov 16 11:27:46 2025] audit: type=1400 audit(1763321266.660:57): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-system-monitor.hook.configure" pid=5769 comm="apparmor_parser"
+[Sun Nov 16 11:32:31 2025] audit: type=1400 audit(1763321551.376:58): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_apt_news" pid=18076 comm="apparmor_parser"
+[Sun Nov 16 11:32:31 2025] audit: type=1400 audit(1763321551.648:59): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_esm_cache" pid=18083 comm="apparmor_parser"
+[Sun Nov 16 11:32:31 2025] audit: type=1400 audit(1763321551.648:60): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_esm_cache//apt_methods" pid=18083 comm="apparmor_parser"
+[Sun Nov 16 11:32:31 2025] audit: type=1400 audit(1763321551.648:61): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_esm_cache//apt_methods_gpgv" pid=18083 comm="apparmor_parser"
+[Sun Nov 16 11:32:31 2025] audit: type=1400 audit(1763321551.648:62): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_esm_cache//cloud_id" pid=18083 comm="apparmor_parser"
+[Sun Nov 16 11:32:31 2025] audit: type=1400 audit(1763321551.648:63): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_esm_cache//dpkg" pid=18083 comm="apparmor_parser"
+[Sun Nov 16 11:32:31 2025] audit: type=1400 audit(1763321551.652:64): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_esm_cache//ps" pid=18083 comm="apparmor_parser"
+[Sun Nov 16 11:32:31 2025] audit: type=1400 audit(1763321551.652:65): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_esm_cache//ubuntu_distro_info" pid=18083 comm="apparmor_parser"
+[Sun Nov 16 11:32:31 2025] audit: type=1400 audit(1763321551.652:66): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_esm_cache_systemctl" pid=18083 comm="apparmor_parser"
+[Sun Nov 16 11:32:31 2025] audit: type=1400 audit(1763321551.652:67): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ubuntu_pro_esm_cache_systemd_detect_virt" pid=18083 comm="apparmor_parser"
+[Sun Nov 16 11:45:59 2025] aufs 5.4.3-20200302
+[Sun Nov 16 11:52:31 2025] audit: type=1400 audit(1763322751.987:68): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=28692 comm="apparmor_parser"
+[Sun Nov 16 11:52:31 2025] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+[Sun Nov 16 11:52:31 2025] Bridge firewalling registered
+[Sun Nov 16 11:52:31 2025] Started bpfilter
+[Sun Nov 16 11:52:31 2025] bpfilter: Loaded bpfilter_umh pid 28713
+[Sun Nov 16 11:52:31 2025] Initializing XFRM netlink socket
+[Sun Nov 16 11:55:45 2025] docker0: port 1(vethee6120d) entered blocking state
+[Sun Nov 16 11:55:45 2025] docker0: port 1(vethee6120d) entered disabled state
+[Sun Nov 16 11:55:45 2025] device vethee6120d entered promiscuous mode
+[Sun Nov 16 11:55:45 2025] cgroup: cgroup: disabling cgroup2 socket matching due to net_prio or net_cls activation
+[Sun Nov 16 11:55:46 2025] eth0: renamed from vethc792cd2
+[Sun Nov 16 11:55:46 2025] IPv6: ADDRCONF(NETDEV_CHANGE): vethee6120d: link becomes ready
+[Sun Nov 16 11:55:46 2025] docker0: port 1(vethee6120d) entered blocking state
+[Sun Nov 16 11:55:46 2025] docker0: port 1(vethee6120d) entered forwarding state
+[Sun Nov 16 11:55:46 2025] IPv6: ADDRCONF(NETDEV_CHANGE): docker0: link becomes ready
+[Sun Nov 16 11:55:46 2025] docker0: port 1(vethee6120d) entered disabled state
+[Sun Nov 16 11:55:46 2025] vethc792cd2: renamed from eth0
+[Sun Nov 16 11:55:46 2025] docker0: port 1(vethee6120d) entered disabled state
+[Sun Nov 16 11:55:46 2025] device vethee6120d left promiscuous mode
+[Sun Nov 16 11:55:46 2025] docker0: port 1(vethee6120d) entered disabled state
+[Sun Nov 16 11:58:58 2025] docker0: port 1(vetheadb860) entered blocking state
+[Sun Nov 16 11:58:58 2025] docker0: port 1(vetheadb860) entered disabled state
+[Sun Nov 16 11:58:58 2025] device vetheadb860 entered promiscuous mode
+[Sun Nov 16 11:58:59 2025] eth0: renamed from veth7444c46
+[Sun Nov 16 11:58:59 2025] IPv6: ADDRCONF(NETDEV_CHANGE): vetheadb860: link becomes ready
+[Sun Nov 16 11:58:59 2025] docker0: port 1(vetheadb860) entered blocking state
+[Sun Nov 16 11:58:59 2025] docker0: port 1(vetheadb860) entered forwarding state
+[Sun Nov 16 11:59:05 2025] docker0: port 1(vetheadb860) entered disabled state
+[Sun Nov 16 11:59:05 2025] veth7444c46: renamed from eth0
+[Sun Nov 16 11:59:05 2025] docker0: port 1(vetheadb860) entered disabled state
+[Sun Nov 16 11:59:05 2025] device vetheadb860 left promiscuous mode
+[Sun Nov 16 11:59:05 2025] docker0: port 1(vetheadb860) entered disabled state
+[Sun Nov 16 11:59:06 2025] docker0: port 1(veth23e9a21) entered blocking state
+[Sun Nov 16 11:59:06 2025] docker0: port 1(veth23e9a21) entered disabled state
+[Sun Nov 16 11:59:06 2025] device veth23e9a21 entered promiscuous mode
+[Sun Nov 16 11:59:06 2025] docker0: port 1(veth23e9a21) entered blocking state
+[Sun Nov 16 11:59:06 2025] docker0: port 1(veth23e9a21) entered forwarding state
+[Sun Nov 16 11:59:06 2025] eth0: renamed from veth2fc0751
+[Sun Nov 16 11:59:06 2025] IPv6: ADDRCONF(NETDEV_CHANGE): veth23e9a21: link becomes ready
+[Sun Nov 16 11:59:14 2025] docker0: port 1(veth23e9a21) entered disabled state
+[Sun Nov 16 11:59:14 2025] veth2fc0751: renamed from eth0
+[Sun Nov 16 11:59:14 2025] docker0: port 1(veth23e9a21) entered disabled state
+[Sun Nov 16 11:59:14 2025] device veth23e9a21 left promiscuous mode
+[Sun Nov 16 11:59:14 2025] docker0: port 1(veth23e9a21) entered disabled state
+[Sun Nov 16 11:59:15 2025] docker0: port 1(vethc036f8c) entered blocking state
+[Sun Nov 16 11:59:15 2025] docker0: port 1(vethc036f8c) entered disabled state
+[Sun Nov 16 11:59:15 2025] device vethc036f8c entered promiscuous mode
+[Sun Nov 16 11:59:15 2025] docker0: port 1(vethc036f8c) entered blocking state
+[Sun Nov 16 11:59:15 2025] docker0: port 1(vethc036f8c) entered forwarding state
+[Sun Nov 16 11:59:15 2025] docker0: port 1(vethc036f8c) entered disabled state
+[Sun Nov 16 11:59:15 2025] eth0: renamed from veth7d2da8c
+[Sun Nov 16 11:59:15 2025] IPv6: ADDRCONF(NETDEV_CHANGE): vethc036f8c: link becomes ready
+[Sun Nov 16 11:59:15 2025] docker0: port 1(vethc036f8c) entered blocking state
+[Sun Nov 16 11:59:15 2025] docker0: port 1(vethc036f8c) entered forwarding state
+[Sun Nov 16 11:59:15 2025] docker0: port 1(vethc036f8c) entered disabled state
+[Sun Nov 16 11:59:15 2025] veth7d2da8c: renamed from eth0
+[Sun Nov 16 11:59:15 2025] docker0: port 1(vethc036f8c) entered disabled state
+[Sun Nov 16 11:59:15 2025] device vethc036f8c left promiscuous mode
+[Sun Nov 16 11:59:15 2025] docker0: port 1(vethc036f8c) entered disabled state
+[Sun Nov 16 11:59:16 2025] docker0: port 1(vethbb104d6) entered blocking state
+[Sun Nov 16 11:59:16 2025] docker0: port 1(vethbb104d6) entered disabled state
+[Sun Nov 16 11:59:16 2025] device vethbb104d6 entered promiscuous mode
+[Sun Nov 16 11:59:16 2025] docker0: port 1(vethbb104d6) entered blocking state
+[Sun Nov 16 11:59:16 2025] docker0: port 1(vethbb104d6) entered forwarding state
+[Sun Nov 16 11:59:16 2025] docker0: port 1(vethbb104d6) entered disabled state
+[Sun Nov 16 11:59:16 2025] eth0: renamed from veth1b0c169
+[Sun Nov 16 11:59:16 2025] IPv6: ADDRCONF(NETDEV_CHANGE): vethbb104d6: link becomes ready
+[Sun Nov 16 11:59:16 2025] docker0: port 1(vethbb104d6) entered blocking state
+[Sun Nov 16 11:59:16 2025] docker0: port 1(vethbb104d6) entered forwarding state
+[Sun Nov 16 11:59:16 2025] veth1b0c169: renamed from eth0
+[Sun Nov 16 11:59:16 2025] docker0: port 1(vethbb104d6) entered disabled state
+[Sun Nov 16 11:59:16 2025] docker0: port 1(vethbb104d6) entered disabled state
+[Sun Nov 16 11:59:16 2025] device vethbb104d6 left promiscuous mode
+[Sun Nov 16 11:59:16 2025] docker0: port 1(vethbb104d6) entered disabled state
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethe59bf4e) entered blocking state
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethe59bf4e) entered disabled state
+[Sun Nov 16 11:59:17 2025] device vethe59bf4e entered promiscuous mode
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethe59bf4e) entered blocking state
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethe59bf4e) entered forwarding state
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethe59bf4e) entered disabled state
+[Sun Nov 16 11:59:17 2025] eth0: renamed from vethddae040
+[Sun Nov 16 11:59:17 2025] IPv6: ADDRCONF(NETDEV_CHANGE): vethe59bf4e: link becomes ready
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethe59bf4e) entered blocking state
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethe59bf4e) entered forwarding state
+[Sun Nov 16 11:59:17 2025] vethddae040: renamed from eth0
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethe59bf4e) entered disabled state
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethe59bf4e) entered disabled state
+[Sun Nov 16 11:59:17 2025] device vethe59bf4e left promiscuous mode
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethe59bf4e) entered disabled state
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethad29a9c) entered blocking state
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethad29a9c) entered disabled state
+[Sun Nov 16 11:59:17 2025] device vethad29a9c entered promiscuous mode
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethad29a9c) entered blocking state
+[Sun Nov 16 11:59:17 2025] docker0: port 1(vethad29a9c) entered forwarding state
+[Sun Nov 16 11:59:18 2025] eth0: renamed from vethefc9cac
+[Sun Nov 16 11:59:18 2025] IPv6: ADDRCONF(NETDEV_CHANGE): vethad29a9c: link becomes ready
+[Sun Nov 16 11:59:18 2025] docker0: port 1(vethad29a9c) entered disabled state
+[Sun Nov 16 11:59:18 2025] vethefc9cac: renamed from eth0
+[Sun Nov 16 11:59:18 2025] docker0: port 1(vethad29a9c) entered disabled state
+[Sun Nov 16 11:59:18 2025] device vethad29a9c left promiscuous mode
+[Sun Nov 16 11:59:18 2025] docker0: port 1(vethad29a9c) entered disabled state
+[Sun Nov 16 11:59:48 2025] docker0: port 1(veth93df5dd) entered blocking state
+[Sun Nov 16 11:59:48 2025] docker0: port 1(veth93df5dd) entered disabled state
+[Sun Nov 16 11:59:48 2025] device veth93df5dd entered promiscuous mode
+[Sun Nov 16 11:59:48 2025] eth0: renamed from veth8777ba4
+[Sun Nov 16 11:59:48 2025] IPv6: ADDRCONF(NETDEV_CHANGE): veth93df5dd: link becomes ready
+[Sun Nov 16 11:59:48 2025] docker0: port 1(veth93df5dd) entered blocking state
+[Sun Nov 16 11:59:48 2025] docker0: port 1(veth93df5dd) entered forwarding state
+[Sun Nov 16 12:00:01 2025] docker0: port 1(veth93df5dd) entered disabled state
+[Sun Nov 16 12:00:01 2025] veth8777ba4: renamed from eth0
+[Sun Nov 16 12:00:01 2025] docker0: port 1(veth93df5dd) entered disabled state
+[Sun Nov 16 12:00:01 2025] device veth93df5dd left promiscuous mode
+[Sun Nov 16 12:00:01 2025] docker0: port 1(veth93df5dd) entered disabled state
+[Sun Nov 16 12:01:16 2025] docker0: port 1(vethdef2c0e) entered blocking state
+[Sun Nov 16 12:01:16 2025] docker0: port 1(vethdef2c0e) entered disabled state
+[Sun Nov 16 12:01:16 2025] device vethdef2c0e entered promiscuous mode
+[Sun Nov 16 12:01:16 2025] eth0: renamed from veth491cc1d
+[Sun Nov 16 12:01:16 2025] IPv6: ADDRCONF(NETDEV_CHANGE): vethdef2c0e: link becomes ready
+[Sun Nov 16 12:01:16 2025] docker0: port 1(vethdef2c0e) entered blocking state
+[Sun Nov 16 12:01:16 2025] docker0: port 1(vethdef2c0e) entered forwarding state
+[Sun Nov 16 12:02:15 2025] docker0: port 1(vethdef2c0e) entered disabled state
+[Sun Nov 16 12:02:15 2025] veth491cc1d: renamed from eth0
+[Sun Nov 16 12:02:15 2025] docker0: port 1(vethdef2c0e) entered disabled state
+[Sun Nov 16 12:02:15 2025] device vethdef2c0e left promiscuous mode
+[Sun Nov 16 12:02:15 2025] docker0: port 1(vethdef2c0e) entered disabled state
+[Sun Nov 16 12:02:20 2025] docker0: port 1(veth90ca154) entered blocking state
+[Sun Nov 16 12:02:20 2025] docker0: port 1(veth90ca154) entered disabled state
+[Sun Nov 16 12:02:20 2025] device veth90ca154 entered promiscuous mode
+[Sun Nov 16 12:02:20 2025] eth0: renamed from vethb6564f2
+[Sun Nov 16 12:02:20 2025] IPv6: ADDRCONF(NETDEV_CHANGE): veth90ca154: link becomes ready
+[Sun Nov 16 12:02:20 2025] docker0: port 1(veth90ca154) entered blocking state
+[Sun Nov 16 12:02:20 2025] docker0: port 1(veth90ca154) entered forwarding state
+[Sun Nov 16 12:02:36 2025] vethb6564f2: renamed from eth0
+[Sun Nov 16 12:02:36 2025] docker0: port 1(veth90ca154) entered disabled state
+[Sun Nov 16 12:02:36 2025] docker0: port 1(veth90ca154) entered disabled state
+[Sun Nov 16 12:02:36 2025] device veth90ca154 left promiscuous mode
+[Sun Nov 16 12:02:36 2025] docker0: port 1(veth90ca154) entered disabled state
+[Sun Nov 16 12:02:37 2025] docker0: port 1(vetha0a52b5) entered blocking state
+[Sun Nov 16 12:02:37 2025] docker0: port 1(vetha0a52b5) entered disabled state
+[Sun Nov 16 12:02:37 2025] device vetha0a52b5 entered promiscuous mode
+[Sun Nov 16 12:02:37 2025] docker0: port 1(vetha0a52b5) entered blocking state
+[Sun Nov 16 12:02:37 2025] docker0: port 1(vetha0a52b5) entered forwarding state
+[Sun Nov 16 12:02:37 2025] eth0: renamed from veth4536044
+[Sun Nov 16 12:02:37 2025] IPv6: ADDRCONF(NETDEV_CHANGE): vetha0a52b5: link becomes ready
+[Sun Nov 16 12:02:37 2025] docker0: port 1(vetha0a52b5) entered disabled state
+[Sun Nov 16 12:02:37 2025] veth4536044: renamed from eth0
+[Sun Nov 16 12:02:37 2025] docker0: port 1(vetha0a52b5) entered disabled state
+[Sun Nov 16 12:02:37 2025] device vetha0a52b5 left promiscuous mode
+[Sun Nov 16 12:02:37 2025] docker0: port 1(vetha0a52b5) entered disabled state
+[Sun Nov 16 12:02:38 2025] docker0: port 1(veth81bc6ae) entered blocking state
+[Sun Nov 16 12:02:38 2025] docker0: port 1(veth81bc6ae) entered disabled state
+[Sun Nov 16 12:02:38 2025] device veth81bc6ae entered promiscuous mode
+[Sun Nov 16 12:02:38 2025] docker0: port 1(veth81bc6ae) entered blocking state
+[Sun Nov 16 12:02:38 2025] docker0: port 1(veth81bc6ae) entered forwarding state
+[Sun Nov 16 12:02:38 2025] docker0: port 1(veth81bc6ae) entered disabled state
+[Sun Nov 16 12:02:38 2025] eth0: renamed from veth17c3673
+[Sun Nov 16 12:02:38 2025] IPv6: ADDRCONF(NETDEV_CHANGE): veth81bc6ae: link becomes ready
+[Sun Nov 16 12:02:38 2025] docker0: port 1(veth81bc6ae) entered blocking state
+[Sun Nov 16 12:02:38 2025] docker0: port 1(veth81bc6ae) entered forwarding state
+[Sun Nov 16 12:02:38 2025] docker0: port 1(veth81bc6ae) entered disabled state
+[Sun Nov 16 12:02:38 2025] veth17c3673: renamed from eth0
+[Sun Nov 16 12:02:38 2025] docker0: port 1(veth81bc6ae) entered disabled state
+[Sun Nov 16 12:02:38 2025] device veth81bc6ae left promiscuous mode
+[Sun Nov 16 12:02:38 2025] docker0: port 1(veth81bc6ae) entered disabled state
+[Sun Nov 16 12:02:47 2025] docker0: port 1(vetha35158d) entered blocking state
+[Sun Nov 16 12:02:47 2025] docker0: port 1(vetha35158d) entered disabled state
+[Sun Nov 16 12:02:47 2025] device vetha35158d entered promiscuous mode
+[Sun Nov 16 12:02:47 2025] eth0: renamed from veth580f52d
+[Sun Nov 16 12:02:47 2025] IPv6: ADDRCONF(NETDEV_CHANGE): vetha35158d: link becomes ready
+[Sun Nov 16 12:02:47 2025] docker0: port 1(vetha35158d) entered blocking state
+[Sun Nov 16 12:02:47 2025] docker0: port 1(vetha35158d) entered forwarding state
+[Sun Nov 16 12:02:47 2025] docker0: port 1(vetha35158d) entered disabled state
+[Sun Nov 16 12:02:47 2025] veth580f52d: renamed from eth0
+[Sun Nov 16 12:02:47 2025] docker0: port 1(vetha35158d) entered disabled state
+[Sun Nov 16 12:02:47 2025] device vetha35158d left promiscuous mode
+[Sun Nov 16 12:02:47 2025] docker0: port 1(vetha35158d) entered disabled state
