@@ -1,0 +1,32 @@
+#include <tunables/global>
+
+profile docker-alpine-hardened flags=(attach_disconnected,mediate_deleted) {
+  #include <abstractions/base>
+
+
+  # Filesystem rules 
+  
+  # executable
+  /** r,
+  /bin/** ix,
+  /usr/bin/** ix,
+  /sbin/** ix,
+  /usr/sbin/** ix,
+  /lib/** ix,
+  /usr/lib/** rix,
+  
+  # writeable
+  /tmp/** rw,
+  /var/tmp/** rw,
+  /dev/** rw,
+  /proc/** r,
+  /sys/** r,
+
+  # CVE 2019-5736
+  deny /proc/*/fd/3 rwx,
+  deny /proc/self/exe w,
+
+
+  # Signals
+  signal (receive, send),
+}

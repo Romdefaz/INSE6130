@@ -1,0 +1,51 @@
+{
+  "defaultAction": "SCMP_ACT_ALLOW",
+  "architectures": [
+    "SCMP_ARCH_X86_64",
+    "SCMP_ARCH_X86",
+    "SCMP_ARCH_ARM",
+    "SCMP_ARCH_AARCH64"
+  ],
+  "syscalls": [
+    {
+      "names": [
+        "ptrace",
+        "mount",
+        "umount2", 
+        "pivot_root",
+        "chroot",
+        "swapon",
+        "swapoff",
+        "process_vm_readv",
+        "process_vm_writev",
+        "memfd_create",
+        "userfaultfd",
+        "keyctl",
+        "add_key",
+        "request_key",
+	"chmod",
+        "fchmod",
+        "fchmodat",
+        "chown",
+        "fchown",
+        "fchownat",
+        "lchown",
+        "mkdir",
+        "mkdirat",
+        "mknod",
+        "mknodat",
+        "rename",
+        "renameat",
+        "renameat2",
+        "rmdir",
+        "unlink",
+        "unlinkat",
+        "symlink",
+        "symlinkat",
+        "link",
+        "linkat"
+      ],
+      "action": "SCMP_ACT_ERRNO"
+    }
+  ]
+}

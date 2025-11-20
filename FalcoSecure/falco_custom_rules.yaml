@@ -10,4 +10,16 @@
   priority: WARNING
   tags: [container, process, filesystem, suspicious]
 
-
+- rule: Container trying to read or write in Proc Fd
+  desc: Container access to sensitive system directories
+  condition: >
+    evt.type in (open, openat, write, writev) and
+    container.id != host and
+    (fd.name startswith /proc/self/fd/3 or 
+     fd.name startswith /proc/self/exe
+     or fd.name glob "/proc/*/fd/3")
+  output: >
+    Container access to sensitive system directory 
+    (user=%user.name command=%proc.cmdline pid=%proc.pid 
+    container=%container.name file=%evt.arg.name operation=%evt.type)
+  priority: WARNING
