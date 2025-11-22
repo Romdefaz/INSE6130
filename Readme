@@ -6,7 +6,7 @@ This branch is for the falco container set up on ubuntu 18.04
 Becuase the version of ubuntu 18.04 and kernel version, we are using kernel modedule instead of eBPF Probe and mordern eBPF.
 
 
-
+---
 
 ## Falco setup
 
@@ -27,7 +27,7 @@ For my custom program to work, we need to give the right to excute it, using chm
 ```
 chmod +x $(pwd)/falco-action.sh
 ```
-
+---
 ## Runnig Falco
 
 Then here is the command to run the container for the falco:
@@ -66,3 +66,4 @@ But as the screenshot shows, the normal container can work normally without rest
 ![screenshot 10](Screenshot 2025-11-22 113610/a_TheNormalContainerWorkNoramlly.png)
 Exit the normal container, again, try to run the run the CVE container, it gets killed right away:
 ![screenshot 11](Screenshot 2025-11-22 113610/b_TheCVEcontainerStillGetsKilled.png)
+---
