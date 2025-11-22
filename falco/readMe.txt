@@ -7,7 +7,7 @@ For falco(from scratch):
 
 sudo apt install curl
 
-sudo apt-get install -y falco=0.35.1
+
 
 ---
 # Don't Copy! 
@@ -27,6 +27,9 @@ sudo falco-driver-loader --compile
 sudo systemctl daemon-reload
 
 sudo systemctl start falco-kmod.service
+
+# for test, we can have local falco set up
+sudo apt-get install -y falco=0.35.1
 
 ------------------------
 For docker: 
