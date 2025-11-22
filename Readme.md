@@ -30,6 +30,11 @@ chmod +x $(pwd)/falco-action.sh
 ---
 ## Runnig Falco
 
+Move to the folder that contains falco configs, my custum rule, and my custum .sh program
+```
+cd falco
+```
+
 Then here is the command to run the container for the falco:
 ```
 sudo docker run --pid=host --rm -it   --name falco   --privileged -v /sys/kernel/tracing:/sys/kernel/tracing:ro  -v /dev:/host/dev -v /var/run/docker.sock:/host/var/run/docker.sock -v /proc:/host/proc:ro -v /etc:/host/etc:ro   -v /lib/modules:/host/lib/modules:ro -v $(pwd)/falco.yaml:/etc/falco/falco.yaml:ro -v $(pwd)/falco_custom_rules.yaml:/etc/falco/falco_rules.local.yaml:ro -v $(pwd)/falco-action.sh:/usr/local/bin/falco-action.sh falcosecurity/falco:0.35.1 
