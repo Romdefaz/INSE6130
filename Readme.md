@@ -10,18 +10,24 @@ Becuase the version of ubuntu 18.04 and kernel version, we are using kernel mode
 
 ## Falco setup
 
-For ubuntu 18.04, we will use falco 0.35.1. Here is the command to set up it's driver whose version is 4.0.0.
+For ubuntu 18.04, we will use falco 0.35.1. Here is the command to set up the environment. It's easier to install the falco locally, then installation will set up the environment for us. We add the repository and the list.
 
 ```
-curl -s https://falco.org/script/install | sudo bash -s -- --driver-type kmod --driver-version 4.0.0+driver
+curl -fsSL https://falco.org/repo/falcosecurity-packages.asc | \
+  sudo gpg --dearmor -o /usr/share/keyrings/falco-archive-keyring.gpg
 ```
-Then compile
 ```
-sudo falco-driver-loader --compile
+echo "deb [signed-by=/usr/share/keyrings/falco-archive-keyring.gpg] https://download.falco.org/packages/deb stable main" | \
+  sudo tee /etc/apt/sources.list.d/falcosecurity.list
 ```
-Then load the driver:
+install falco 0.35.1
 ```
-sudo modprobe falco 2>/dev/null || sudo insmod /home/u18/.falco/9.0.0+driver/x86_64/falco_ubuntu-generic_5.4.0-150-generic_167~18.04.1.ko
+sudo apt-get update
+sudo apt-get install -y falco=0.35.1 
+```
+Then use the kernel module
+```
+sudo falco-driver-loader module
 ```
 For my custom program to work, we need to give the right to excute it, using chmod in the folder contains "falco-action.sh":
 ```

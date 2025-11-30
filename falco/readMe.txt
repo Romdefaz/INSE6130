@@ -4,10 +4,21 @@ This is a readme.txt for environment preparation.
 
 -----------------------------
 For falco(from scratch):
+sudo apt update
+sudo apt install ca-certificates curl gnupg
 
-sudo apt install curl
+# Add Falco repository
+curl -fsSL https://falco.org/repo/falcosecurity-packages.asc | \
+  sudo gpg --dearmor -o /usr/share/keyrings/falco-archive-keyring.gpg
 
+echo "deb [signed-by=/usr/share/keyrings/falco-archive-keyring.gpg] https://download.falco.org/packages/deb stable main" | \
+  sudo tee /etc/apt/sources.list.d/falcosecurity.list
 
+# Install
+sudo apt-get update
+sudo apt-get install -y falco=0.35.1 
+
+sudo falco-driver-loader module
 
 ---
 # Don't Copy! 
@@ -15,11 +26,12 @@ sudo apt install curl
 # if you already install some falco drivers, remove it first with below code in ()
 (sudo rmmod falco 2>/dev/null || true
 sudo dkms remove -m falco -v 9.0.0+driver --all 2>/dev/null || true)
+curl -s https://falco.org/script/install | sudo bash -s -- --driver-type kmod --driver-version 4.0.0+driver
 ---
 
-curl -s https://falco.org/script/install | sudo bash -s -- --driver-type kmod --driver-version 4.0.0+driver
 
-sudo falco-driver-loader --compile
+
+sudo falco-driver-loader module
 
 ----------------------------------------------
 # if run into "Exec format error", use below
