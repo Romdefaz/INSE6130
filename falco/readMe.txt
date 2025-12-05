@@ -52,7 +52,7 @@ sudo systemctl daemon-reload
 
 sudo systemctl start falco-kmod.service
 
-# for test, local falco set up is much easier
+# for test, we can have local falco set up
 sudo apt-get install -y falco=0.35.1
 
 ------------------------
@@ -81,7 +81,7 @@ Command for falco container:
 -----------local falco---------
 sudo falco -c /etc/falco/falco.yaml
 
------------falco container----- not working well, and it's slow.
+-----------falco container-----
 sudo docker run --pid=host --rm -it   --name falco   --privileged  -v /sys/kernel/tracing:/sys/kernel/tracing:ro  -v /dev:/host/dev   -v /var/run/docker.sock:/host/var/run/docker.sock   -v /proc:/host/proc:ro   -v /etc:/host/etc:ro   -v /lib/modules:/host/lib/modules:ro   -v $(pwd)/falco.yaml:/etc/falco/falco.yaml:ro   -v $(pwd)/falco_custom_rules.yaml:/etc/falco/falco_rules.local.yaml:ro   -v $(pwd)/falco-action.sh:/usr/local/bin/falco-action.sh    falcosecurity/falco:0.35.1 
 ---------------------------------------------
 

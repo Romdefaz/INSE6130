@@ -53,24 +53,27 @@ if [ "${rule_name##*$valid_rules_keywords*}" != "$rule_name" ]; then
 #if [ "${valid_pri##*$priority*}" != "$valid_pri" ]; then
 	if [ -n "$container_id" ]; then
 		IS_RUNNING=$(docker inspect --format '{{.State.Running}}' "$container_id" 2>/dev/null)
-		if [ "$IS_RUNNING" == "false" ]; then
-			echo "[$(date)] 📦 Falco-action exit because container not running" >> /var/log/falco-actions.log
-			exit
+		if [ "$IS_RUNNING" == "True" ]; then
+			docker pause "$container_id"
+			echo "[$(date)] ✅ Tried to paused Container" >> /var/log/falco-actions.log
 		fi
-		docker pause "$container_id"
 		# extract process name for logging
 		container_name=$(echo "$event" | jq -r '.output_fields["container.name"] // empty')
 		echo "[$(date)] 🔧 Found container: $container_name ($container_id)" >> /var/log/falco-actions.log
-		echo "[$(date)] ✅ Tried to paused Container" >> /var/log/falco-actions.log
+		
 
 		if [ -f "./cleanup_lab.sh" ]; then
-    			echo "-----------BOOOOOOOOM-------------------."
+    			echo "🚀 -----------BOOOOOOOOM-------------------."
 			chmod +x ./cleanup_lab.sh
     			./cleanup_lab.sh
 		else
-    			echo "Error: 'cleanup_lab.sh' not found in current directory."
+    			echo "⚠️ Error: 'cleanup_lab.sh' not found in current directory." >> /var/log/falco-actions.log
 		fi
-
+		IS_RUNNING=$(docker inspect --format '{{.State.Running}}' "$container_id" 2>/dev/null)
+		if [ "$IS_RUNNING" == "true" ]; then
+			docker kill "$container_id"
+			echo "[$(date)] 🔴  Killing container $container_id" >> /var/log/falco-actions.log
+		fi
 		
 
 	else
@@ -78,6 +81,7 @@ if [ "${rule_name##*$valid_rules_keywords*}" != "$rule_name" ]; then
 	fi
 else
 	echo "[$(date)] ℹ️  Could not find matching rules in valid_rules_keywords" >> /var/log/falco-actions.log
+	IS_RUNNING=$(docker inspect --format '{{.State.Running}}' "$container_id" 2>/dev/null)
 	if [ "$IS_RUNNING" == "false" ]; then
 		echo "[$(date)] 📦 Falco-action exit because container not running" >> /var/log/falco-actions.log
 		exit

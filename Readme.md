@@ -33,6 +33,18 @@ For my custom program to work, we need to give the right to excute it, using chm
 ```
 chmod +x $(pwd)/falco-action.sh
 ```
+We need all the custom rule, config and scrpts in the right path for local falco:
+```
+sudo cp falco.yaml /etc/falco/falco.yaml 
+sudo cp falco_custom_rules.yaml /etc/falco/falco_rules.local.yaml
+sudo cp falco-action.sh /usr/local/bin/falco-action.sh
+sudo chmod +x /usr/local/bin/falco-action.sh
+
+sudo cp cleanup_lab.sh /usr/local/bin/cleanup_lab.sh 
+sudo chmod +x /usr/local/bin/cleanup_lab.sh
+sudo cp docker_reinstall.sh /usr/local/bin/docker_reinstall.sh 
+sudo chmod +x /usr/local/bin/docker_reinstall.sh
+```
 ---
 ## Runnig Falco
 
@@ -41,13 +53,12 @@ Move to the folder that contains falco configs, my custum rule, and my custum .s
 cd falco
 ```
 
-Then here is the command to run the container for the falco:
+Then here is the command to run the falco on the host:
 ```
-sudo docker run --pid=host --rm -it   --name falco   --privileged -v /sys/kernel/tracing:/sys/kernel/tracing:ro  -v /dev:/host/dev -v /var/run/docker.sock:/host/var/run/docker.sock -v /proc:/host/proc:ro -v /etc:/host/etc:ro   -v /lib/modules:/host/lib/modules:ro -v $(pwd)/falco.yaml:/etc/falco/falco.yaml:ro -v $(pwd)/falco_custom_rules.yaml:/etc/falco/falco_rules.local.yaml:ro -v $(pwd)/falco-action.sh:/usr/local/bin/falco-action.sh falcosecurity/falco:0.35.1 
+sudo falco -c /etc/falco/falco.yaml
 ```
 Here is a screenshot of command in terminal:
 <<<<<<< HEAD
-
 ![screenshot 1](Screenshots/1FalcoContainerCommand.png)
 
 Run it, then we will see falco starts to monitor:
