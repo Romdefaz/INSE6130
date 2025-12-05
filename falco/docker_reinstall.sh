@@ -57,7 +57,7 @@ rm -f /usr/bin/docker-containerd*
 rm -f /usr/bin/runc
 
 # should change this path when needed - maybe change vm maybe change dir.
-SEARCH_DIR="~/falco"  
+SEARCH_DIR="~/INSE6130/falco"  
 # Step 4: Remove Docker data directories
 print_info "[$(date)] 📁  Removing Docker data directories..."
 rm -rf /var/lib/docker
