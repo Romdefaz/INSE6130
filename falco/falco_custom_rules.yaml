@@ -21,17 +21,21 @@
   tags: [container, process, filesystem, suspicious]
 
 - rule: Container trying to read or write in Proc Fd CVE
-  desc: Container access to Proc Fd
+  desc: Container access to Proc Fd (CVE-2019-5736 detection)
   condition: >
-    evt.type in (open, openat, write, writev) and
-    container.id != host and
-    user.name != root and
-    (fd.name startswith /proc/self/fd/3 or 
-     fd.name startswith /proc/self/exe
-     or fd.name glob "/proc/*/fd/3")
+    container and
+    evt.type in (open, openat, openat2, write, writev) and
+    evt.dir=< and
+    (fd.name startswith /proc/self/fd or 
+     fd.name startswith /proc/self/exe or
+     fd.name glob "/proc/*/fd/*" or
+     fd.name glob "/proc/*/exe" or
+     evt.arg.name startswith /proc/self/fd or
+     evt.arg.name startswith /proc/self/exe)
   output: >
-    Container access to sensitive system directory 
-    (user=%user.name command=%proc.cmdline pid=%proc.pid 
-    container=%container.name file=%evt.arg.name operation=%evt.type)
+    Container access to sensitive proc directory 
+    (user=%user.name user_uid=%user.uid command=%proc.cmdline 
+    pid=%proc.pid ppid=%proc.ppid container_id=%container.id
+    container_name=%container.name image=%container.image.repository
+    file=%fd.name evt_arg_name=%evt.arg.name operation=%evt.type)
   priority: WARNING
-  exception: container.image.repository = "falcosecurity/falco"
